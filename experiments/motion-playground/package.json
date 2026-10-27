@@ -1,0 +1,11 @@
+{
+  "name": "motion-playground",
+  "version": "1.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node ops/localize.mjs",
+    "check": "node ops/check-static.mjs",
+    "test": "node --test tests/*.test.mjs"
+  }
+}
