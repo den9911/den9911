@@ -1,68 +1,42 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
-  <img src="assets/header-light.svg" alt="den9911 — Rust, AI and useful software" width="1100">
-</picture>
+<p><a href="README.md">English</a> · <strong>Русский</strong></p>
 
-[English](README.md) · [Español](README.es.md) · [Русский](README.ru.md)
+# den9911
 
-# Rust — в основе. Польза — в результате.
+## Маленькие приложения. Общие впечатления.
 
-Основное направление — Rust: серверные приложения, асинхронные инструменты и предсказуемое поведение программ. Дополняю этот набор работой с AI, автоматизацией на Python, JavaScript и TypeScript.
+Нарисовать по памяти. Угадать мнение большинства. Придумать подпись к картинке. Девять независимых веб-проектов для творчества, общения и совместных решений.
 
-## Рабочий набор
+### С чего начать
 
-<p>
-  <a href="https://www.rust-lang.org/"><img src="assets/rust-badge.svg" width="42" height="42" alt="Rust"></a>
-  &nbsp; <a href="https://www.python.org/"><img src="assets/python.svg" width="42" height="42" alt="Python"></a>
-  &nbsp; <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="assets/javascript.svg" width="42" height="42" alt="JavaScript"></a>
-  &nbsp; <a href="https://www.typescriptlang.org/"><img src="assets/typescript.svg" width="42" height="42" alt="TypeScript"></a>
-</p>
+<table><tr>
+<td width="50%" valign="top"><a href="https://github.com/den9911/caption-club"><img src="https://raw.githubusercontent.com/den9911/caption-club/main/assets/preview.jpg" alt="Caption Club" width="480"></a><h3><img src="assets/projects/caption-club.svg" width="26" height="26" alt=""> Caption Club</h3><p>Придумай подпись, выбери любимую и сохрани открытку.</p><a href="https://github.com/den9911/caption-club">Открыть проект →</a></td>
+<td width="50%" valign="top"><a href="https://github.com/den9911/memory-sketch"><img src="https://raw.githubusercontent.com/den9911/memory-sketch/main/assets/preview.jpg" alt="Memory Sketch" width="480"></a><h3><img src="assets/projects/memory-sketch.svg" width="26" height="26" alt=""> Memory Sketch</h3><p>Нарисуй знакомый предмет по памяти, открой образец и сохрани результат.</p><a href="https://github.com/den9911/memory-sketch">Открыть проект →</a></td>
+</tr></table>
 
-**Rust** · AI tooling · Python · JavaScript · TypeScript
+### Все проекты
 
-<details>
-<summary>Подробнее о направлении</summary>
+| | Проект | Что можно сделать |
+| --- | --- | --- |
+| <img src="assets/projects/caption-club.svg" width="32" height="32" alt=""> | [Caption Club](https://github.com/den9911/caption-club) | Придумай подпись, выбери любимую и сохрани открытку. |
+| <img src="assets/projects/majority-vote.svg" width="32" height="32" alt=""> | [Majority Vote](https://github.com/den9911/majority-vote) | Угадай мнение большинства, ответь сам и сравни результаты. |
+| <img src="assets/projects/meme-arena.svg" width="32" height="32" alt=""> | [Meme Arena](https://github.com/den9911/meme-arena) | Выбирай самый смешной мем в дуэлях и смотри таблицу победителей. |
+| <img src="assets/projects/memory-sketch.svg" width="32" height="32" alt=""> | [Memory Sketch](https://github.com/den9911/memory-sketch) | Нарисуй знакомый предмет по памяти, открой образец и сохрани результат. |
+| <img src="assets/projects/excuse-bureau.svg" width="32" height="32" alt=""> | [Excuse Bureau](https://github.com/den9911/excuse-bureau) | Преврати маленькую отговорку в шуточный документ для друзей. |
+| <img src="assets/projects/crowd-decides.svg" width="32" height="32" alt=""> | [Crowd Decides](https://github.com/den9911/crowd-decides) | Создай короткий опрос и предложи друзьям решить вместе. |
+| <img src="assets/projects/pixel-rooms.svg" width="32" height="32" alt=""> | [Pixel Rooms](https://github.com/den9911/pixel-rooms) | Нарисуй пиксельную комнату и загляни в дом, который строят посетители. |
+| <img src="assets/projects/daily-minute.svg" width="32" height="32" alt=""> | [Daily Minute](https://github.com/den9911/daily-minute) | Найди лишнее слово, проверь своё время и поделись результатом. |
+| <img src="assets/projects/odd-finds.svg" width="32" height="32" alt=""> | [Odd Finds](https://github.com/den9911/odd-finds) | Собирай смешные вывески, странные объявления и неожиданные детали. |
 
-Мой основной фокус — Rust: владение, асинхронность и понятное использование ресурсов. Python помогает в автоматизации и интеграциях AI; JavaScript и TypeScript соединяют программы с пользователями.
+### За проектами
 
-```rust
-const FOCUS: [&str; 3] = ["Rust", "AI tooling", "Useful software"];
+Приложения используют HTML, CSS и JavaScript. В четырёх начат переход на TypeScript; семь используют Node.js и SQLite для общих данных. Memory Sketch и Excuse Bureau работают целиком в браузере. В каждом README есть инструкции запуска и русская версия.
 
-fn main() {
-    for direction in FOCUS {
-        println!("{direction}");
-    }
-}
-```
+Основное направление моего развития — Rust, инструменты для AI и автоматизация на Python.
 
-</details>
+<p><img src="assets/rust-badge.svg" width="32" height="32" alt="Rust"> &nbsp; <img src="assets/python.svg" width="32" height="32" alt="Python"> &nbsp; <img src="assets/javascript.svg" width="32" height="32" alt="JavaScript"> &nbsp; <img src="assets/typescript.svg" width="32" height="32" alt="TypeScript"> &nbsp; </p>
 
-## Проекты
+### Ещё кое-что
 
-Эти приложения используют JavaScript, HTML и CSS. Для общих данных — Node.js и SQLite. Инструкции запуска есть в README проектов.
+[Motion Playground](experiments/motion-playground/) — отдельная коллекция экспериментов с CSS и взаимодействием.
 
-### Эксперименты для сообщества
-
-| Проект | Подробнее |
-| --- | --- |
-| [Caption Club](https://github.com/den9911/caption-club) | Ежедневные конкурсы подписей, голоса и открытки. |
-| [Majority Vote](https://github.com/den9911/majority-vote) | Необычные вопросы, прогнозы и реальные ответы людей. |
-| [Meme Arena](https://github.com/den9911/meme-arena) | Дуэли мемов и публикации с модерацией. |
-| [Crowd Decides](https://github.com/den9911/crowd-decides) | Один вопрос, одна ссылка и общее решение. |
-| [Pixel Rooms](https://github.com/den9911/pixel-rooms) | Пиксельная комната в доме, который строят вместе. |
-| [Daily Minute](https://github.com/den9911/daily-minute) | Общее ежедневное задание на поиск лишнего слова. |
-| [Odd Finds](https://github.com/den9911/odd-finds) | Смешные вывески, странные предметы и находки. |
-
-### Творческие инструменты
-
-| Проект | Подробнее |
-| --- | --- |
-| [Memory Sketch](https://github.com/den9911/memory-sketch) | Тридцать секунд, чтобы нарисовать предмет по памяти. |
-| [Excuse Bureau](https://github.com/den9911/excuse-bureau) | Шуточные разрешения, отмазки и дипломы для скачивания. |
-| [Motion Playground](experiments/motion-playground/) | Убегающие кнопки, пружинящие карточки и анимации. |
-
-## Интерактивная страница профиля
-
-В [docs/](docs/) — исходники сайта на трёх языках: темы, фильтры проектов и наглядное объяснение владения в Rust. [Запуск и размещение](SITE.md).
-
-[GitHub](https://github.com/den9911) · [Repositories](https://github.com/den9911?tab=repositories)
+[Исходники портфолио](docs/) · [Запуск и размещение](SITE.md) · [GitHub](https://github.com/den9911)

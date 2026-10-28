@@ -1,68 +1,42 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
-  <img src="assets/header-light.svg" alt="den9911 — Rust, AI and useful software" width="1100">
-</picture>
+<p><strong>English</strong> · <a href="README.ru.md">Русский</a></p>
 
-[English](README.md) · [Español](README.es.md) · [Русский](README.ru.md)
+# den9911
 
-# Rust first. Useful by design.
+## Small apps. Something to do together.
 
-My main direction is Rust: backend services, asynchronous tools, and predictable software. I also work with AI tooling, Python automation, JavaScript, and TypeScript.
+Draw from memory. Read the room. Give a picture its punchline. Nine independent web projects for small creative breaks and shared decisions.
 
-## The working kit
+### Start here
 
-<p>
-  <a href="https://www.rust-lang.org/"><img src="assets/rust-badge.svg" width="42" height="42" alt="Rust"></a>
-  &nbsp; <a href="https://www.python.org/"><img src="assets/python.svg" width="42" height="42" alt="Python"></a>
-  &nbsp; <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="assets/javascript.svg" width="42" height="42" alt="JavaScript"></a>
-  &nbsp; <a href="https://www.typescriptlang.org/"><img src="assets/typescript.svg" width="42" height="42" alt="TypeScript"></a>
-</p>
+<table><tr>
+<td width="50%" valign="top"><a href="https://github.com/den9911/caption-club"><img src="https://raw.githubusercontent.com/den9911/caption-club/main/assets/preview.jpg" alt="Caption Club" width="480"></a><h3><img src="assets/projects/caption-club.svg" width="26" height="26" alt=""> Caption Club</h3><p>Write a caption, vote for a favorite, and take home a shareable card.</p><a href="https://github.com/den9911/caption-club">Explore the project →</a></td>
+<td width="50%" valign="top"><a href="https://github.com/den9911/memory-sketch"><img src="https://raw.githubusercontent.com/den9911/memory-sketch/main/assets/preview.jpg" alt="Memory Sketch" width="480"></a><h3><img src="assets/projects/memory-sketch.svg" width="26" height="26" alt=""> Memory Sketch</h3><p>Draw an everyday object from memory, reveal the reference, and save your version.</p><a href="https://github.com/den9911/memory-sketch">Explore the project →</a></td>
+</tr></table>
 
-**Rust** · AI tooling · Python · JavaScript · TypeScript
+### The collection
 
-<details>
-<summary>More about my focus</summary>
+| | Project | What you can do |
+| --- | --- | --- |
+| <img src="assets/projects/caption-club.svg" width="32" height="32" alt=""> | [Caption Club](https://github.com/den9911/caption-club) | Write a caption, vote for a favorite, and take home a shareable card. |
+| <img src="assets/projects/majority-vote.svg" width="32" height="32" alt=""> | [Majority Vote](https://github.com/den9911/majority-vote) | Predict the majority, cast your vote, then see where you stand. |
+| <img src="assets/projects/meme-arena.svg" width="32" height="32" alt=""> | [Meme Arena](https://github.com/den9911/meme-arena) | Pick the funnier card in head-to-head battles and discover the winners. |
+| <img src="assets/projects/memory-sketch.svg" width="32" height="32" alt=""> | [Memory Sketch](https://github.com/den9911/memory-sketch) | Draw an everyday object from memory, reveal the reference, and save your version. |
+| <img src="assets/projects/excuse-bureau.svg" width="32" height="32" alt=""> | [Excuse Bureau](https://github.com/den9911/excuse-bureau) | Turn a small excuse into a playful certificate worth sharing. |
+| <img src="assets/projects/crowd-decides.svg" width="32" height="32" alt=""> | [Crowd Decides](https://github.com/den9911/crowd-decides) | Create a quick poll and let your friends decide together. |
+| <img src="assets/projects/pixel-rooms.svg" width="32" height="32" alt=""> | [Pixel Rooms](https://github.com/den9911/pixel-rooms) | Decorate a pixel room and explore a house built by its visitors. |
+| <img src="assets/projects/daily-minute.svg" width="32" height="32" alt=""> | [Daily Minute](https://github.com/den9911/daily-minute) | Find the odd word, track your time, and share your result. |
+| <img src="assets/projects/odd-finds.svg" width="32" height="32" alt=""> | [Odd Finds](https://github.com/den9911/odd-finds) | Collect funny signs, strange notices, and things that deserve a second look. |
 
-Rust is my main direction. I’m interested in ownership, async programming, and keeping resource use understandable. Python supports automation and AI integrations; JavaScript and TypeScript connect the software to its users.
+### Behind the projects
 
-```rust
-const FOCUS: [&str; 3] = ["Rust", "AI tooling", "Useful software"];
+These apps use native HTML, CSS, and JavaScript. Four have an incremental TypeScript migration; seven use Node.js and SQLite for shared data. Memory Sketch and Excuse Bureau run entirely in the browser. Each README includes setup instructions and a Russian translation.
 
-fn main() {
-    for direction in FOCUS {
-        println!("{direction}");
-    }
-}
-```
+My broader focus is Rust, AI tooling, and Python automation.
 
-</details>
+<p><img src="assets/rust-badge.svg" width="32" height="32" alt="Rust"> &nbsp; <img src="assets/python.svg" width="32" height="32" alt="Python"> &nbsp; <img src="assets/javascript.svg" width="32" height="32" alt="JavaScript"> &nbsp; <img src="assets/typescript.svg" width="32" height="32" alt="TypeScript"> &nbsp; </p>
 
-## Explore the projects
+### More to explore
 
-These small applications use JavaScript, HTML, and CSS. Community features use Node.js and SQLite. Their READMEs contain setup instructions.
+[Motion Playground](experiments/motion-playground/) — a separate collection of CSS interaction experiments.
 
-### Community experiments
-
-| Project | Details |
-| --- | --- |
-| [Caption Club](https://github.com/den9911/caption-club) | Daily captions, voting, and shareable cards |
-| [Majority Vote](https://github.com/den9911/majority-vote) | Questions, predictions, and crowd votes |
-| [Meme Arena](https://github.com/den9911/meme-arena) | Meme duels and moderated submissions |
-| [Crowd Decides](https://github.com/den9911/crowd-decides) | Shareable polls |
-| [Pixel Rooms](https://github.com/den9911/pixel-rooms) | A shared pixel house |
-| [Daily Minute](https://github.com/den9911/daily-minute) | A daily odd-word puzzle |
-| [Odd Finds](https://github.com/den9911/odd-finds) | Curious everyday discoveries |
-
-### Creative tools
-
-| Project | Details |
-| --- | --- |
-| [Memory Sketch](https://github.com/den9911/memory-sketch) | 30-second drawing challenges |
-| [Excuse Bureau](https://github.com/den9911/excuse-bureau) | Playful certificates and documents |
-| [Motion Playground](experiments/motion-playground/) | Lightweight interactive CSS experiments |
-
-## Interactive profile site
-
-The source for a three-language portfolio, with light/dark themes, project filters, and a visual ownership explorer, is in [docs/](docs/). [Preview and hosting instructions](SITE.md).
-
-[GitHub](https://github.com/den9911) · [Repositories](https://github.com/den9911?tab=repositories)
+[Portfolio source](docs/) · [Preview and hosting](SITE.md) · [GitHub](https://github.com/den9911)
