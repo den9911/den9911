@@ -1,0 +1,2615 @@
+{
+  "as_of": "2026-10-28",
+  "repositories": {
+    "caption-club": {
+      "files": [
+        {
+          "path": ".dockerignore",
+          "size": 43
+        },
+        {
+          "path": ".env.example",
+          "size": 325
+        },
+        {
+          "path": ".github/workflows/verify.yml",
+          "size": 454
+        },
+        {
+          "path": ".gitignore",
+          "size": 39
+        },
+        {
+          "path": "Dockerfile",
+          "size": 496
+        },
+        {
+          "path": "LICENSE",
+          "size": 1073
+        },
+        {
+          "path": "OPERATIONS.md",
+          "size": 7512
+        },
+        {
+          "path": "README.md",
+          "size": 3772
+        },
+        {
+          "path": "README.ru.md",
+          "size": 5319
+        },
+        {
+          "path": "TYPESCRIPT.md",
+          "size": 840
+        },
+        {
+          "path": "assets/icon.svg",
+          "size": 292
+        },
+        {
+          "path": "assets/preview.jpg",
+          "size": 66774
+        },
+        {
+          "path": "i18n/catalog.tsv",
+          "size": 39449
+        },
+        {
+          "path": "ops/Caddyfile.example",
+          "size": 174
+        },
+        {
+          "path": "ops/backup.mjs",
+          "size": 534
+        },
+        {
+          "path": "ops/check.mjs",
+          "size": 2075
+        },
+        {
+          "path": "ops/localize.mjs",
+          "size": 3774
+        },
+        {
+          "path": "ops/minute-club.service.example",
+          "size": 417
+        },
+        {
+          "path": "ops/performance.mjs",
+          "size": 1569
+        },
+        {
+          "path": "ops/syntax.mjs",
+          "size": 198
+        },
+        {
+          "path": "ops/typescript-output.json",
+          "size": 164
+        },
+        {
+          "path": "ops/typescript.mjs",
+          "size": 1032
+        },
+        {
+          "path": "package-lock.json",
+          "size": 1432
+        },
+        {
+          "path": "package.json",
+          "size": 566
+        },
+        {
+          "path": "public/about/index.html",
+          "size": 4684
+        },
+        {
+          "path": "public/admin/app.js",
+          "size": 2780
+        },
+        {
+          "path": "public/admin/index.html",
+          "size": 1715
+        },
+        {
+          "path": "public/caption/app.js",
+          "size": 4707
+        },
+        {
+          "path": "public/caption/index.html",
+          "size": 1717
+        },
+        {
+          "path": "public/index.html",
+          "size": 1717
+        },
+        {
+          "path": "public/locales/en/admin/app.js",
+          "size": 2519
+        },
+        {
+          "path": "public/locales/en/caption/app.js",
+          "size": 4237
+        },
+        {
+          "path": "public/locales/en/pages/about/index.html",
+          "size": 3075
+        },
+        {
+          "path": "public/locales/en/pages/admin/index.html",
+          "size": 1481
+        },
+        {
+          "path": "public/locales/en/pages/caption/index.html",
+          "size": 1493
+        },
+        {
+          "path": "public/locales/en/pages/index.html",
+          "size": 1493
+        },
+        {
+          "path": "public/locales/en/shared/editorial.js",
+          "size": 11184
+        },
+        {
+          "path": "public/locales/en/shared/main.js",
+          "size": 3357
+        },
+        {
+          "path": "public/locales/en/shared/project.js",
+          "size": 103
+        },
+        {
+          "path": "public/locales/en/shared/scenes.js",
+          "size": 2668
+        },
+        {
+          "path": "public/locales/en/shared/ui.js",
+          "size": 8351
+        },
+        {
+          "path": "public/locales/ru/admin/app.js",
+          "size": 2791
+        },
+        {
+          "path": "public/locales/ru/caption/app.js",
+          "size": 4729
+        },
+        {
+          "path": "public/locales/ru/pages/about/index.html",
+          "size": 4684
+        },
+        {
+          "path": "public/locales/ru/pages/admin/index.html",
+          "size": 1715
+        },
+        {
+          "path": "public/locales/ru/pages/caption/index.html",
+          "size": 1717
+        },
+        {
+          "path": "public/locales/ru/pages/index.html",
+          "size": 1717
+        },
+        {
+          "path": "public/locales/ru/shared/editorial.js",
+          "size": 13392
+        },
+        {
+          "path": "public/locales/ru/shared/main.js",
+          "size": 3836
+        },
+        {
+          "path": "public/locales/ru/shared/project.js",
+          "size": 103
+        },
+        {
+          "path": "public/locales/ru/shared/scenes.js",
+          "size": 2762
+        },
+        {
+          "path": "public/locales/ru/shared/ui.js",
+          "size": 9291
+        },
+        {
+          "path": "public/shared/boot.js",
+          "size": 1010
+        },
+        {
+          "path": "public/shared/editorial.js",
+          "size": 13392
+        },
+        {
+          "path": "public/shared/favicon.svg",
+          "size": 292
+        },
+        {
+          "path": "public/shared/main.js",
+          "size": 3803
+        },
+        {
+          "path": "public/shared/preferences-model.js",
+          "size": 623
+        },
+        {
+          "path": "public/shared/preferences.js",
+          "size": 1230
+        },
+        {
+          "path": "public/shared/project.js",
+          "size": 103
+        },
+        {
+          "path": "public/shared/scenes.js",
+          "size": 2762
+        },
+        {
+          "path": "public/shared/settings.js",
+          "size": 3382
+        },
+        {
+          "path": "public/shared/style.css",
+          "size": 14904
+        },
+        {
+          "path": "public/shared/themes.css",
+          "size": 9106
+        },
+        {
+          "path": "public/shared/ui.js",
+          "size": 9291
+        },
+        {
+          "path": "server/content.mjs",
+          "size": 4740
+        },
+        {
+          "path": "server/index.mjs",
+          "size": 24531
+        },
+        {
+          "path": "server/project.mjs",
+          "size": 37
+        },
+        {
+          "path": "server/store.mjs",
+          "size": 2830
+        },
+        {
+          "path": "server/validation.mjs",
+          "size": 4181
+        },
+        {
+          "path": "src/contracts.ts",
+          "size": 867
+        },
+        {
+          "path": "src/preferences-model.ts",
+          "size": 848
+        },
+        {
+          "path": "src/preferences.ts",
+          "size": 1229
+        },
+        {
+          "path": "src/validation.mts",
+          "size": 3862
+        },
+        {
+          "path": "tests/preferences.test.mjs",
+          "size": 5322
+        },
+        {
+          "path": "tests/server.test.mjs",
+          "size": 17574
+        },
+        {
+          "path": "tests/static.test.mjs",
+          "size": 951
+        },
+        {
+          "path": "tsconfig.json",
+          "size": 542
+        }
+      ],
+      "commits": [
+        {
+          "sha": "49f9357ee4e9dea2bb639d3139183295d379eb29",
+          "date": "2026-10-28T08:34:03Z"
+        },
+        {
+          "sha": "0119ff76844c02eaff60ac46d493e5a5c8a1c8e4",
+          "date": "2026-10-27T16:14:33Z"
+        },
+        {
+          "sha": "88e09b35cd0f3a678380fb863b15f28e60e8ec77",
+          "date": "2026-10-27T15:11:27Z"
+        },
+        {
+          "sha": "4acee41a2b8a8c27f27675d23a0ed9fd51b6e6bc",
+          "date": "2026-10-27T14:36:49Z"
+        },
+        {
+          "sha": "2a8812a4764c1f210280e8d1b9879efcbdacb2df",
+          "date": "2026-10-27T14:17:27Z"
+        }
+      ]
+    },
+    "odd-finds": {
+      "files": [
+        {
+          "path": ".dockerignore",
+          "size": 43
+        },
+        {
+          "path": ".env.example",
+          "size": 335
+        },
+        {
+          "path": ".gitignore",
+          "size": 2298
+        },
+        {
+          "path": "Dockerfile",
+          "size": 496
+        },
+        {
+          "path": "LICENSE",
+          "size": 1073
+        },
+        {
+          "path": "OPERATIONS.md",
+          "size": 7512
+        },
+        {
+          "path": "README.md",
+          "size": 2941
+        },
+        {
+          "path": "README.ru.md",
+          "size": 4594
+        },
+        {
+          "path": "assets/icon.svg",
+          "size": 308
+        },
+        {
+          "path": "assets/preview.jpg",
+          "size": 71467
+        },
+        {
+          "path": "i18n/catalog.tsv",
+          "size": 39449
+        },
+        {
+          "path": "ops/Caddyfile.example",
+          "size": 174
+        },
+        {
+          "path": "ops/backup.mjs",
+          "size": 534
+        },
+        {
+          "path": "ops/check.mjs",
+          "size": 2075
+        },
+        {
+          "path": "ops/localize.mjs",
+          "size": 3774
+        },
+        {
+          "path": "ops/minute-club.service.example",
+          "size": 417
+        },
+        {
+          "path": "ops/performance.mjs",
+          "size": 1569
+        },
+        {
+          "path": "ops/syntax.mjs",
+          "size": 198
+        },
+        {
+          "path": "package.json",
+          "size": 361
+        },
+        {
+          "path": "public/about/index.html",
+          "size": 4684
+        },
+        {
+          "path": "public/admin/app.js",
+          "size": 2780
+        },
+        {
+          "path": "public/admin/index.html",
+          "size": 1715
+        },
+        {
+          "path": "public/finds/app.js",
+          "size": 4231
+        },
+        {
+          "path": "public/finds/index.html",
+          "size": 1696
+        },
+        {
+          "path": "public/index.html",
+          "size": 1696
+        },
+        {
+          "path": "public/locales/en/admin/app.js",
+          "size": 2519
+        },
+        {
+          "path": "public/locales/en/finds/app.js",
+          "size": 3857
+        },
+        {
+          "path": "public/locales/en/pages/about/index.html",
+          "size": 3075
+        },
+        {
+          "path": "public/locales/en/pages/admin/index.html",
+          "size": 1481
+        },
+        {
+          "path": "public/locales/en/pages/finds/index.html",
+          "size": 1492
+        },
+        {
+          "path": "public/locales/en/pages/index.html",
+          "size": 1492
+        },
+        {
+          "path": "public/locales/en/shared/editorial.js",
+          "size": 11151
+        },
+        {
+          "path": "public/locales/en/shared/main.js",
+          "size": 3357
+        },
+        {
+          "path": "public/locales/en/shared/project.js",
+          "size": 103
+        },
+        {
+          "path": "public/locales/en/shared/scenes.js",
+          "size": 2668
+        },
+        {
+          "path": "public/locales/en/shared/ui.js",
+          "size": 8351
+        },
+        {
+          "path": "public/locales/ru/admin/app.js",
+          "size": 2791
+        },
+        {
+          "path": "public/locales/ru/finds/app.js",
+          "size": 4264
+        },
+        {
+          "path": "public/locales/ru/pages/about/index.html",
+          "size": 4684
+        },
+        {
+          "path": "public/locales/ru/pages/admin/index.html",
+          "size": 1715
+        },
+        {
+          "path": "public/locales/ru/pages/finds/index.html",
+          "size": 1696
+        },
+        {
+          "path": "public/locales/ru/pages/index.html",
+          "size": 1696
+        },
+        {
+          "path": "public/locales/ru/shared/editorial.js",
+          "size": 13359
+        },
+        {
+          "path": "public/locales/ru/shared/main.js",
+          "size": 3836
+        },
+        {
+          "path": "public/locales/ru/shared/project.js",
+          "size": 103
+        },
+        {
+          "path": "public/locales/ru/shared/scenes.js",
+          "size": 2762
+        },
+        {
+          "path": "public/locales/ru/shared/ui.js",
+          "size": 9291
+        },
+        {
+          "path": "public/shared/boot.js",
+          "size": 1010
+        },
+        {
+          "path": "public/shared/editorial.js",
+          "size": 13359
+        },
+        {
+          "path": "public/shared/favicon.svg",
+          "size": 308
+        },
+        {
+          "path": "public/shared/main.js",
+          "size": 3803
+        },
+        {
+          "path": "public/shared/preferences-model.js",
+          "size": 456
+        },
+        {
+          "path": "public/shared/preferences.js",
+          "size": 886
+        },
+        {
+          "path": "public/shared/project.js",
+          "size": 103
+        },
+        {
+          "path": "public/shared/scenes.js",
+          "size": 2762
+        },
+        {
+          "path": "public/shared/settings.js",
+          "size": 3382
+        },
+        {
+          "path": "public/shared/style.css",
+          "size": 14904
+        },
+        {
+          "path": "public/shared/themes.css",
+          "size": 9106
+        },
+        {
+          "path": "public/shared/ui.js",
+          "size": 9291
+        },
+        {
+          "path": "server/content.mjs",
+          "size": 4740
+        },
+        {
+          "path": "server/index.mjs",
+          "size": 24541
+        },
+        {
+          "path": "server/project.mjs",
+          "size": 35
+        },
+        {
+          "path": "server/store.mjs",
+          "size": 2830
+        },
+        {
+          "path": "server/validation.mjs",
+          "size": 3639
+        },
+        {
+          "path": "tests/preferences.test.mjs",
+          "size": 5245
+        },
+        {
+          "path": "tests/server.test.mjs",
+          "size": 17574
+        },
+        {
+          "path": "tests/static.test.mjs",
+          "size": 951
+        }
+      ],
+      "commits": [
+        {
+          "sha": "8b0c45bd34aed0d4af964993ccbf9e9440d457db",
+          "date": "2026-10-28T08:44:09Z"
+        },
+        {
+          "sha": "4b079c2111746f01e6f84444c34701f604f71983",
+          "date": "2026-10-27T15:17:41Z"
+        },
+        {
+          "sha": "e909b9ba7d2c653910a56b9c7463f706d801a9d8",
+          "date": "2026-10-27T14:53:48Z"
+        }
+      ]
+    },
+    "memory-sketch": {
+      "files": [
+        {
+          "path": ".github/workflows/verify.yml",
+          "size": 454
+        },
+        {
+          "path": ".gitignore",
+          "size": 39
+        },
+        {
+          "path": "LICENSE",
+          "size": 1073
+        },
+        {
+          "path": "README.md",
+          "size": 3636
+        },
+        {
+          "path": "README.ru.md",
+          "size": 4840
+        },
+        {
+          "path": "TYPESCRIPT.md",
+          "size": 840
+        },
+        {
+          "path": "assets/icon.svg",
+          "size": 292
+        },
+        {
+          "path": "assets/preview.jpg",
+          "size": 52647
+        },
+        {
+          "path": "i18n/catalog.tsv",
+          "size": 39449
+        },
+        {
+          "path": "ops/check-static.mjs",
+          "size": 1154
+        },
+        {
+          "path": "ops/localize.mjs",
+          "size": 3774
+        },
+        {
+          "path": "ops/performance.mjs",
+          "size": 1569
+        },
+        {
+          "path": "ops/syntax.mjs",
+          "size": 198
+        },
+        {
+          "path": "ops/typescript-output.json",
+          "size": 119
+        },
+        {
+          "path": "ops/typescript.mjs",
+          "size": 1032
+        },
+        {
+          "path": "package-lock.json",
+          "size": 1434
+        },
+        {
+          "path": "package.json",
+          "size": 436
+        },
+        {
+          "path": "public/about/index.html",
+          "size": 3000
+        },
+        {
+          "path": "public/index.html",
+          "size": 1699
+        },
+        {
+          "path": "public/locales/en/memory/app.js",
+          "size": 6646
+        },
+        {
+          "path": "public/locales/en/pages/about/index.html",
+          "size": 2183
+        },
+        {
+          "path": "public/locales/en/pages/index.html",
+          "size": 1482
+        },
+        {
+          "path": "public/locales/en/pages/memory/index.html",
+          "size": 1482
+        },
+        {
+          "path": "public/locales/en/shared/editorial.js",
+          "size": 11184
+        },
+        {
+          "path": "public/locales/en/shared/main.js",
+          "size": 3357
+        },
+        {
+          "path": "public/locales/en/shared/project.js",
+          "size": 118
+        },
+        {
+          "path": "public/locales/en/shared/scenes.js",
+          "size": 2668
+        },
+        {
+          "path": "public/locales/en/shared/ui.js",
+          "size": 8351
+        },
+        {
+          "path": "public/locales/ru/memory/app.js",
+          "size": 7126
+        },
+        {
+          "path": "public/locales/ru/pages/about/index.html",
+          "size": 3000
+        },
+        {
+          "path": "public/locales/ru/pages/index.html",
+          "size": 1699
+        },
+        {
+          "path": "public/locales/ru/pages/memory/index.html",
+          "size": 1699
+        },
+        {
+          "path": "public/locales/ru/shared/editorial.js",
+          "size": 13392
+        },
+        {
+          "path": "public/locales/ru/shared/main.js",
+          "size": 3836
+        },
+        {
+          "path": "public/locales/ru/shared/project.js",
+          "size": 152
+        },
+        {
+          "path": "public/locales/ru/shared/scenes.js",
+          "size": 2762
+        },
+        {
+          "path": "public/locales/ru/shared/ui.js",
+          "size": 9291
+        },
+        {
+          "path": "public/memory/app.js",
+          "size": 7104
+        },
+        {
+          "path": "public/memory/index.html",
+          "size": 1699
+        },
+        {
+          "path": "public/shared/boot.js",
+          "size": 1010
+        },
+        {
+          "path": "public/shared/editorial.js",
+          "size": 13392
+        },
+        {
+          "path": "public/shared/favicon.svg",
+          "size": 292
+        },
+        {
+          "path": "public/shared/main.js",
+          "size": 3803
+        },
+        {
+          "path": "public/shared/preferences-model.js",
+          "size": 623
+        },
+        {
+          "path": "public/shared/preferences.js",
+          "size": 1230
+        },
+        {
+          "path": "public/shared/project.js",
+          "size": 152
+        },
+        {
+          "path": "public/shared/scenes.js",
+          "size": 2762
+        },
+        {
+          "path": "public/shared/settings.js",
+          "size": 3382
+        },
+        {
+          "path": "public/shared/style.css",
+          "size": 14904
+        },
+        {
+          "path": "public/shared/themes.css",
+          "size": 9106
+        },
+        {
+          "path": "public/shared/ui.js",
+          "size": 9291
+        },
+        {
+          "path": "src/contracts.ts",
+          "size": 867
+        },
+        {
+          "path": "src/preferences-model.ts",
+          "size": 848
+        },
+        {
+          "path": "src/preferences.ts",
+          "size": 1229
+        },
+        {
+          "path": "tests/preferences.test.mjs",
+          "size": 5322
+        },
+        {
+          "path": "tests/static.test.mjs",
+          "size": 951
+        },
+        {
+          "path": "tsconfig.json",
+          "size": 542
+        }
+      ],
+      "commits": [
+        {
+          "sha": "a07312c6f87fa88cc097e97c2e2134a5ce51cda3",
+          "date": "2026-10-28T08:39:03Z"
+        },
+        {
+          "sha": "44e4a57632a0bdba1bd2b5aad03888bf87870135",
+          "date": "2026-10-27T16:16:08Z"
+        },
+        {
+          "sha": "14fc558dfa4c41ed467c5c0d5ec249f9d74e3b5b",
+          "date": "2026-10-27T15:14:39Z"
+        },
+        {
+          "sha": "9501e21341f69352008646093e0980eb91e4407d",
+          "date": "2026-10-27T14:38:40Z"
+        },
+        {
+          "sha": "256b6ce138c9096a07b588dbce80db47d0fc20a9",
+          "date": "2026-10-27T14:19:02Z"
+        }
+      ]
+    },
+    "crowd-decides": {
+      "files": [
+        {
+          "path": ".dockerignore",
+          "size": 43
+        },
+        {
+          "path": ".env.example",
+          "size": 325
+        },
+        {
+          "path": ".gitignore",
+          "size": 2298
+        },
+        {
+          "path": "Dockerfile",
+          "size": 496
+        },
+        {
+          "path": "LICENSE",
+          "size": 1073
+        },
+        {
+          "path": "OPERATIONS.md",
+          "size": 7512
+        },
+        {
+          "path": "README.md",
+          "size": 2707
+        },
+        {
+          "path": "README.ru.md",
+          "size": 4077
+        },
+        {
+          "path": "assets/icon.svg",
+          "size": 275
+        },
+        {
+          "path": "assets/preview.jpg",
+          "size": 82654
+        },
+        {
+          "path": "i18n/catalog.tsv",
+          "size": 39449
+        },
+        {
+          "path": "ops/Caddyfile.example",
+          "size": 174
+        },
+        {
+          "path": "ops/backup.mjs",
+          "size": 534
+        },
+        {
+          "path": "ops/check.mjs",
+          "size": 2075
+        },
+        {
+          "path": "ops/localize.mjs",
+          "size": 3774
+        },
+        {
+          "path": "ops/minute-club.service.example",
+          "size": 417
+        },
+        {
+          "path": "ops/performance.mjs",
+          "size": 1569
+        },
+        {
+          "path": "ops/syntax.mjs",
+          "size": 198
+        },
+        {
+          "path": "package.json",
+          "size": 365
+        },
+        {
+          "path": "public/about/index.html",
+          "size": 4684
+        },
+        {
+          "path": "public/admin/app.js",
+          "size": 2780
+        },
+        {
+          "path": "public/admin/index.html",
+          "size": 1715
+        },
+        {
+          "path": "public/decide/app.js",
+          "size": 3707
+        },
+        {
+          "path": "public/decide/index.html",
+          "size": 1706
+        },
+        {
+          "path": "public/index.html",
+          "size": 1706
+        },
+        {
+          "path": "public/locales/en/admin/app.js",
+          "size": 2519
+        },
+        {
+          "path": "public/locales/en/decide/app.js",
+          "size": 3197
+        },
+        {
+          "path": "public/locales/en/pages/about/index.html",
+          "size": 3075
+        },
+        {
+          "path": "public/locales/en/pages/admin/index.html",
+          "size": 1481
+        },
+        {
+          "path": "public/locales/en/pages/decide/index.html",
+          "size": 1495
+        },
+        {
+          "path": "public/locales/en/pages/index.html",
+          "size": 1495
+        },
+        {
+          "path": "public/locales/en/shared/editorial.js",
+          "size": 11151
+        },
+        {
+          "path": "public/locales/en/shared/main.js",
+          "size": 3357
+        },
+        {
+          "path": "public/locales/en/shared/project.js",
+          "size": 103
+        },
+        {
+          "path": "public/locales/en/shared/scenes.js",
+          "size": 2668
+        },
+        {
+          "path": "public/locales/en/shared/ui.js",
+          "size": 8351
+        },
+        {
+          "path": "public/locales/ru/admin/app.js",
+          "size": 2791
+        },
+        {
+          "path": "public/locales/ru/decide/app.js",
+          "size": 3718
+        },
+        {
+          "path": "public/locales/ru/pages/about/index.html",
+          "size": 4684
+        },
+        {
+          "path": "public/locales/ru/pages/admin/index.html",
+          "size": 1715
+        },
+        {
+          "path": "public/locales/ru/pages/decide/index.html",
+          "size": 1706
+        },
+        {
+          "path": "public/locales/ru/pages/index.html",
+          "size": 1706
+        },
+        {
+          "path": "public/locales/ru/shared/editorial.js",
+          "size": 13359
+        },
+        {
+          "path": "public/locales/ru/shared/main.js",
+          "size": 3836
+        },
+        {
+          "path": "public/locales/ru/shared/project.js",
+          "size": 103
+        },
+        {
+          "path": "public/locales/ru/shared/scenes.js",
+          "size": 2762
+        },
+        {
+          "path": "public/locales/ru/shared/ui.js",
+          "size": 9291
+        },
+        {
+          "path": "public/shared/boot.js",
+          "size": 1010
+        },
+        {
+          "path": "public/shared/editorial.js",
+          "size": 13359
+        },
+        {
+          "path": "public/shared/favicon.svg",
+          "size": 275
+        },
+        {
+          "path": "public/shared/main.js",
+          "size": 3803
+        },
+        {
+          "path": "public/shared/preferences-model.js",
+          "size": 456
+        },
+        {
+          "path": "public/shared/preferences.js",
+          "size": 886
+        },
+        {
+          "path": "public/shared/project.js",
+          "size": 103
+        },
+        {
+          "path": "public/shared/scenes.js",
+          "size": 2762
+        },
+        {
+          "path": "public/shared/settings.js",
+          "size": 3382
+        },
+        {
+          "path": "public/shared/style.css",
+          "size": 14904
+        },
+        {
+          "path": "public/shared/themes.css",
+          "size": 9106
+        },
+        {
+          "path": "public/shared/ui.js",
+          "size": 9291
+        },
+        {
+          "path": "server/content.mjs",
+          "size": 4740
+        },
+        {
+          "path": "server/index.mjs",
+          "size": 24531
+        },
+        {
+          "path": "server/project.mjs",
+          "size": 36
+        },
+        {
+          "path": "server/store.mjs",
+          "size": 2830
+        },
+        {
+          "path": "server/validation.mjs",
+          "size": 3639
+        },
+        {
+          "path": "tests/preferences.test.mjs",
+          "size": 5245
+        },
+        {
+          "path": "tests/server.test.mjs",
+          "size": 17574
+        },
+        {
+          "path": "tests/static.test.mjs",
+          "size": 951
+        }
+      ],
+      "commits": [
+        {
+          "sha": "798dff185bc7646ecd35dea5adc39f4f29e6a9a9",
+          "date": "2026-10-28T08:40:27Z"
+        },
+        {
+          "sha": "789837e1cf224f4079b99a561333558875fc2f5a",
+          "date": "2026-10-27T15:15:46Z"
+        },
+        {
+          "sha": "3aedf1d4e48837eb08719d524fb5c9a40ec3527e",
+          "date": "2026-10-27T14:52:19Z"
+        }
+      ]
+    },
+    "majority-vote": {
+      "files": [
+        {
+          "path": ".dockerignore",
+          "size": 43
+        },
+        {
+          "path": ".env.example",
+          "size": 325
+        },
+        {
+          "path": ".github/workflows/verify.yml",
+          "size": 454
+        },
+        {
+          "path": ".gitignore",
+          "size": 39
+        },
+        {
+          "path": "Dockerfile",
+          "size": 496
+        },
+        {
+          "path": "LICENSE",
+          "size": 1073
+        },
+        {
+          "path": "OPERATIONS.md",
+          "size": 7512
+        },
+        {
+          "path": "README.md",
+          "size": 3706
+        },
+        {
+          "path": "README.ru.md",
+          "size": 5167
+        },
+        {
+          "path": "TYPESCRIPT.md",
+          "size": 840
+        },
+        {
+          "path": "assets/icon.svg",
+          "size": 285
+        },
+        {
+          "path": "assets/preview.jpg",
+          "size": 61400
+        },
+        {
+          "path": "i18n/catalog.tsv",
+          "size": 39449
+        },
+        {
+          "path": "ops/Caddyfile.example",
+          "size": 174
+        },
+        {
+          "path": "ops/backup.mjs",
+          "size": 534
+        },
+        {
+          "path": "ops/check.mjs",
+          "size": 2075
+        },
+        {
+          "path": "ops/localize.mjs",
+          "size": 3774
+        },
+        {
+          "path": "ops/minute-club.service.example",
+          "size": 417
+        },
+        {
+          "path": "ops/performance.mjs",
+          "size": 1569
+        },
+        {
+          "path": "ops/syntax.mjs",
+          "size": 198
+        },
+        {
+          "path": "ops/typescript-output.json",
+          "size": 164
+        },
+        {
+          "path": "ops/typescript.mjs",
+          "size": 1032
+        },
+        {
+          "path": "package-lock.json",
+          "size": 1434
+        },
+        {
+          "path": "package.json",
+          "size": 567
+        },
+        {
+          "path": "public/about/index.html",
+          "size": 4684
+        },
+        {
+          "path": "public/admin/app.js",
+          "size": 2780
+        },
+        {
+          "path": "public/admin/index.html",
+          "size": 1715
+        },
+        {
+          "path": "public/index.html",
+          "size": 1708
+        },
+        {
+          "path": "public/locales/en/admin/app.js",
+          "size": 2519
+        },
+        {
+          "path": "public/locales/en/majority/app.js",
+          "size": 3211
+        },
+        {
+          "path": "public/locales/en/pages/about/index.html",
+          "size": 3075
+        },
+        {
+          "path": "public/locales/en/pages/admin/index.html",
+          "size": 1481
+        },
+        {
+          "path": "public/locales/en/pages/index.html",
+          "size": 1493
+        },
+        {
+          "path": "public/locales/en/pages/majority/index.html",
+          "size": 1493
+        },
+        {
+          "path": "public/locales/en/shared/editorial.js",
+          "size": 11184
+        },
+        {
+          "path": "public/locales/en/shared/main.js",
+          "size": 3357
+        },
+        {
+          "path": "public/locales/en/shared/project.js",
+          "size": 103
+        },
+        {
+          "path": "public/locales/en/shared/scenes.js",
+          "size": 2668
+        },
+        {
+          "path": "public/locales/en/shared/ui.js",
+          "size": 8351
+        },
+        {
+          "path": "public/locales/ru/admin/app.js",
+          "size": 2791
+        },
+        {
+          "path": "public/locales/ru/majority/app.js",
+          "size": 3442
+        },
+        {
+          "path": "public/locales/ru/pages/about/index.html",
+          "size": 4684
+        },
+        {
+          "path": "public/locales/ru/pages/admin/index.html",
+          "size": 1715
+        },
+        {
+          "path": "public/locales/ru/pages/index.html",
+          "size": 1708
+        },
+        {
+          "path": "public/locales/ru/pages/majority/index.html",
+          "size": 1708
+        },
+        {
+          "path": "public/locales/ru/shared/editorial.js",
+          "size": 13392
+        },
+        {
+          "path": "public/locales/ru/shared/main.js",
+          "size": 3836
+        },
+        {
+          "path": "public/locales/ru/shared/project.js",
+          "size": 103
+        },
+        {
+          "path": "public/locales/ru/shared/scenes.js",
+          "size": 2762
+        },
+        {
+          "path": "public/locales/ru/shared/ui.js",
+          "size": 9291
+        },
+        {
+          "path": "public/majority/app.js",
+          "size": 3431
+        },
+        {
+          "path": "public/majority/index.html",
+          "size": 1708
+        },
+        {
+          "path": "public/shared/boot.js",
+          "size": 1010
+        },
+        {
+          "path": "public/shared/editorial.js",
+          "size": 13392
+        },
+        {
+          "path": "public/shared/favicon.svg",
+          "size": 285
+        },
+        {
+          "path": "public/shared/main.js",
+          "size": 3803
+        },
+        {
+          "path": "public/shared/preferences-model.js",
+          "size": 623
+        },
+        {
+          "path": "public/shared/preferences.js",
+          "size": 1230
+        },
+        {
+          "path": "public/shared/project.js",
+          "size": 103
+        },
+        {
+          "path": "public/shared/scenes.js",
+          "size": 2762
+        },
+        {
+          "path": "public/shared/settings.js",
+          "size": 3382
+        },
+        {
+          "path": "public/shared/style.css",
+          "size": 14904
+        },
+        {
+          "path": "public/shared/themes.css",
+          "size": 9106
+        },
+        {
+          "path": "public/shared/ui.js",
+          "size": 9291
+        },
+        {
+          "path": "server/content.mjs",
+          "size": 4740
+        },
+        {
+          "path": "server/index.mjs",
+          "size": 24531
+        },
+        {
+          "path": "server/project.mjs",
+          "size": 38
+        },
+        {
+          "path": "server/store.mjs",
+          "size": 2830
+        },
+        {
+          "path": "server/validation.mjs",
+          "size": 4181
+        },
+        {
+          "path": "src/contracts.ts",
+          "size": 867
+        },
+        {
+          "path": "src/preferences-model.ts",
+          "size": 848
+        },
+        {
+          "path": "src/preferences.ts",
+          "size": 1229
+        },
+        {
+          "path": "src/validation.mts",
+          "size": 3862
+        },
+        {
+          "path": "tests/preferences.test.mjs",
+          "size": 5322
+        },
+        {
+          "path": "tests/server.test.mjs",
+          "size": 17574
+        },
+        {
+          "path": "tests/static.test.mjs",
+          "size": 951
+        },
+        {
+          "path": "tsconfig.json",
+          "size": 542
+        }
+      ],
+      "commits": [
+        {
+          "sha": "09cd5764fae5c761d5470e19ae40018e26c9fb4d",
+          "date": "2026-10-28T08:35:41Z"
+        },
+        {
+          "sha": "0c225b6e5f40745ff78e3f0e87ad3090c6530a77",
+          "date": "2026-10-27T16:15:02Z"
+        },
+        {
+          "sha": "bd29f33d12fc919ee3c1e98be4bf4eb73397c14d",
+          "date": "2026-10-27T15:12:09Z"
+        },
+        {
+          "sha": "6382cf15bac35525e308db22f61208d0ff1d644a",
+          "date": "2026-10-27T14:37:17Z"
+        },
+        {
+          "sha": "08bb5d6163cc3ad56e58a152e9f78c2a320c07d8",
+          "date": "2026-10-27T14:18:03Z"
+        }
+      ]
+    },
+    "meme-arena": {
+      "files": [
+        {
+          "path": ".dockerignore",
+          "size": 43
+        },
+        {
+          "path": ".env.example",
+          "size": 335
+        },
+        {
+          "path": ".github/workflows/verify.yml",
+          "size": 454
+        },
+        {
+          "path": ".gitignore",
+          "size": 39
+        },
+        {
+          "path": "Dockerfile",
+          "size": 496
+        },
+        {
+          "path": "LICENSE",
+          "size": 1073
+        },
+        {
+          "path": "OPERATIONS.md",
+          "size": 7512
+        },
+        {
+          "path": "README.md",
+          "size": 3920
+        },
+        {
+          "path": "README.ru.md",
+          "size": 5705
+        },
+        {
+          "path": "TYPESCRIPT.md",
+          "size": 840
+        },
+        {
+          "path": "assets/icon.svg",
+          "size": 380
+        },
+        {
+          "path": "assets/preview.jpg",
+          "size": 65053
+        },
+        {
+          "path": "i18n/catalog.tsv",
+          "size": 39449
+        },
+        {
+          "path": "ops/Caddyfile.example",
+          "size": 174
+        },
+        {
+          "path": "ops/backup.mjs",
+          "size": 534
+        },
+        {
+          "path": "ops/check.mjs",
+          "size": 2075
+        },
+        {
+          "path": "ops/localize.mjs",
+          "size": 3774
+        },
+        {
+          "path": "ops/minute-club.service.example",
+          "size": 417
+        },
+        {
+          "path": "ops/performance.mjs",
+          "size": 1569
+        },
+        {
+          "path": "ops/syntax.mjs",
+          "size": 198
+        },
+        {
+          "path": "ops/typescript-output.json",
+          "size": 164
+        },
+        {
+          "path": "ops/typescript.mjs",
+          "size": 1032
+        },
+        {
+          "path": "package-lock.json",
+          "size": 1428
+        },
+        {
+          "path": "package.json",
+          "size": 564
+        },
+        {
+          "path": "public/about/index.html",
+          "size": 4684
+        },
+        {
+          "path": "public/admin/app.js",
+          "size": 2780
+        },
+        {
+          "path": "public/admin/index.html",
+          "size": 1715
+        },
+        {
+          "path": "public/arena/app.js",
+          "size": 1790
+        },
+        {
+          "path": "public/arena/index.html",
+          "size": 1693
+        },
+        {
+          "path": "public/index.html",
+          "size": 1693
+        },
+        {
+          "path": "public/locales/en/admin/app.js",
+          "size": 2519
+        },
+        {
+          "path": "public/locales/en/arena/app.js",
+          "size": 1513
+        },
+        {
+          "path": "public/locales/en/pages/about/index.html",
+          "size": 3075
+        },
+        {
+          "path": "public/locales/en/pages/admin/index.html",
+          "size": 1481
+        },
+        {
+          "path": "public/locales/en/pages/arena/index.html",
+          "size": 1474
+        },
+        {
+          "path": "public/locales/en/pages/index.html",
+          "size": 1474
+        },
+        {
+          "path": "public/locales/en/shared/editorial.js",
+          "size": 11184
+        },
+        {
+          "path": "public/locales/en/shared/main.js",
+          "size": 3357
+        },
+        {
+          "path": "public/locales/en/shared/project.js",
+          "size": 103
+        },
+        {
+          "path": "public/locales/en/shared/scenes.js",
+          "size": 2668
+        },
+        {
+          "path": "public/locales/en/shared/ui.js",
+          "size": 8351
+        },
+        {
+          "path": "public/locales/ru/admin/app.js",
+          "size": 2791
+        },
+        {
+          "path": "public/locales/ru/arena/app.js",
+          "size": 1801
+        },
+        {
+          "path": "public/locales/ru/pages/about/index.html",
+          "size": 4684
+        },
+        {
+          "path": "public/locales/ru/pages/admin/index.html",
+          "size": 1715
+        },
+        {
+          "path": "public/locales/ru/pages/arena/index.html",
+          "size": 1693
+        },
+        {
+          "path": "public/locales/ru/pages/index.html",
+          "size": 1693
+        },
+        {
+          "path": "public/locales/ru/shared/editorial.js",
+          "size": 13392
+        },
+        {
+          "path": "public/locales/ru/shared/main.js",
+          "size": 3836
+        },
+        {
+          "path": "public/locales/ru/shared/project.js",
+          "size": 103
+        },
+        {
+          "path": "public/locales/ru/shared/scenes.js",
+          "size": 2762
+        },
+        {
+          "path": "public/locales/ru/shared/ui.js",
+          "size": 9291
+        },
+        {
+          "path": "public/shared/boot.js",
+          "size": 1010
+        },
+        {
+          "path": "public/shared/editorial.js",
+          "size": 13392
+        },
+        {
+          "path": "public/shared/favicon.svg",
+          "size": 380
+        },
+        {
+          "path": "public/shared/main.js",
+          "size": 3803
+        },
+        {
+          "path": "public/shared/preferences-model.js",
+          "size": 623
+        },
+        {
+          "path": "public/shared/preferences.js",
+          "size": 1230
+        },
+        {
+          "path": "public/shared/project.js",
+          "size": 103
+        },
+        {
+          "path": "public/shared/scenes.js",
+          "size": 2762
+        },
+        {
+          "path": "public/shared/settings.js",
+          "size": 3382
+        },
+        {
+          "path": "public/shared/style.css",
+          "size": 14904
+        },
+        {
+          "path": "public/shared/themes.css",
+          "size": 9106
+        },
+        {
+          "path": "public/shared/ui.js",
+          "size": 9291
+        },
+        {
+          "path": "server/content.mjs",
+          "size": 4740
+        },
+        {
+          "path": "server/index.mjs",
+          "size": 24541
+        },
+        {
+          "path": "server/project.mjs",
+          "size": 35
+        },
+        {
+          "path": "server/store.mjs",
+          "size": 2830
+        },
+        {
+          "path": "server/validation.mjs",
+          "size": 4181
+        },
+        {
+          "path": "src/contracts.ts",
+          "size": 867
+        },
+        {
+          "path": "src/preferences-model.ts",
+          "size": 848
+        },
+        {
+          "path": "src/preferences.ts",
+          "size": 1229
+        },
+        {
+          "path": "src/validation.mts",
+          "size": 3862
+        },
+        {
+          "path": "tests/preferences.test.mjs",
+          "size": 5322
+        },
+        {
+          "path": "tests/server.test.mjs",
+          "size": 17574
+        },
+        {
+          "path": "tests/static.test.mjs",
+          "size": 951
+        },
+        {
+          "path": "tsconfig.json",
+          "size": 542
+        }
+      ],
+      "commits": [
+        {
+          "sha": "5e338d732d2c7d2d7b0a6939e0183c9497fc2bde",
+          "date": "2026-10-28T08:38:32Z"
+        },
+        {
+          "sha": "7d00c797afb5a4fca87f01189494c595563c9ddd",
+          "date": "2026-10-27T16:15:34Z"
+        },
+        {
+          "sha": "6d23064f26a9ea4f8bb257550660ce6f935a0e21",
+          "date": "2026-10-27T15:12:37Z"
+        },
+        {
+          "sha": "c194760a7feb1bfd2bbb98301991a18ddbc8f774",
+          "date": "2026-10-27T14:37:59Z"
+        },
+        {
+          "sha": "5ee6f5a0fd9a384ad3924f2c0d72a7f688f63167",
+          "date": "2026-10-27T14:18:32Z"
+        }
+      ]
+    },
+    "excuse-bureau": {
+      "files": [
+        {
+          "path": ".gitignore",
+          "size": 2298
+        },
+        {
+          "path": "LICENSE",
+          "size": 1073
+        },
+        {
+          "path": "README.md",
+          "size": 2578
+        },
+        {
+          "path": "README.ru.md",
+          "size": 3602
+        },
+        {
+          "path": "assets/icon.svg",
+          "size": 314
+        },
+        {
+          "path": "assets/preview.jpg",
+          "size": 98791
+        },
+        {
+          "path": "i18n/catalog.tsv",
+          "size": 39449
+        },
+        {
+          "path": "ops/check-static.mjs",
+          "size": 1154
+        },
+        {
+          "path": "ops/localize.mjs",
+          "size": 3774
+        },
+        {
+          "path": "ops/performance.mjs",
+          "size": 1569
+        },
+        {
+          "path": "ops/syntax.mjs",
+          "size": 198
+        },
+        {
+          "path": "package.json",
+          "size": 234
+        },
+        {
+          "path": "public/about/index.html",
+          "size": 3094
+        },
+        {
+          "path": "public/index.html",
+          "size": 1704
+        },
+        {
+          "path": "public/locales/en/pages/about/index.html",
+          "size": 2243
+        },
+        {
+          "path": "public/locales/en/pages/index.html",
+          "size": 1493
+        },
+        {
+          "path": "public/locales/en/pages/papers/index.html",
+          "size": 1493
+        },
+        {
+          "path": "public/locales/en/papers/app.js",
+          "size": 3902
+        },
+        {
+          "path": "public/locales/en/shared/editorial.js",
+          "size": 11151
+        },
+        {
+          "path": "public/locales/en/shared/main.js",
+          "size": 3357
+        },
+        {
+          "path": "public/locales/en/shared/project.js",
+          "size": 129
+        },
+        {
+          "path": "public/locales/en/shared/scenes.js",
+          "size": 2668
+        },
+        {
+          "path": "public/locales/en/shared/ui.js",
+          "size": 8351
+        },
+        {
+          "path": "public/locales/ru/pages/about/index.html",
+          "size": 3094
+        },
+        {
+          "path": "public/locales/ru/pages/index.html",
+          "size": 1704
+        },
+        {
+          "path": "public/locales/ru/pages/papers/index.html",
+          "size": 1704
+        },
+        {
+          "path": "public/locales/ru/papers/app.js",
+          "size": 4727
+        },
+        {
+          "path": "public/locales/ru/shared/editorial.js",
+          "size": 13359
+        },
+        {
+          "path": "public/locales/ru/shared/main.js",
+          "size": 3836
+        },
+        {
+          "path": "public/locales/ru/shared/project.js",
+          "size": 163
+        },
+        {
+          "path": "public/locales/ru/shared/scenes.js",
+          "size": 2762
+        },
+        {
+          "path": "public/locales/ru/shared/ui.js",
+          "size": 9291
+        },
+        {
+          "path": "public/papers/app.js",
+          "size": 4716
+        },
+        {
+          "path": "public/papers/index.html",
+          "size": 1704
+        },
+        {
+          "path": "public/shared/boot.js",
+          "size": 1010
+        },
+        {
+          "path": "public/shared/editorial.js",
+          "size": 13359
+        },
+        {
+          "path": "public/shared/favicon.svg",
+          "size": 314
+        },
+        {
+          "path": "public/shared/main.js",
+          "size": 3803
+        },
+        {
+          "path": "public/shared/preferences-model.js",
+          "size": 456
+        },
+        {
+          "path": "public/shared/preferences.js",
+          "size": 886
+        },
+        {
+          "path": "public/shared/project.js",
+          "size": 163
+        },
+        {
+          "path": "public/shared/scenes.js",
+          "size": 2762
+        },
+        {
+          "path": "public/shared/settings.js",
+          "size": 3382
+        },
+        {
+          "path": "public/shared/style.css",
+          "size": 14904
+        },
+        {
+          "path": "public/shared/themes.css",
+          "size": 9106
+        },
+        {
+          "path": "public/shared/ui.js",
+          "size": 9291
+        },
+        {
+          "path": "tests/preferences.test.mjs",
+          "size": 5245
+        },
+        {
+          "path": "tests/static.test.mjs",
+          "size": 951
+        }
+      ],
+      "commits": [
+        {
+          "sha": "3aa48fdf72f38d4b0f4da93916a2a6a237bd1d2d",
+          "date": "2026-10-28T08:39:56Z"
+        },
+        {
+          "sha": "3e5d53a3385f0f9d3d4b7957371cb810a6296ea8",
+          "date": "2026-10-27T15:15:07Z"
+        },
+        {
+          "sha": "d30fd3841ed45a2172ed803a526a039a7ee8fd85",
+          "date": "2026-10-27T14:51:48Z"
+        }
+      ]
+    },
+    "daily-minute": {
+      "files": [
+        {
+          "path": ".dockerignore",
+          "size": 43
+        },
+        {
+          "path": ".env.example",
+          "size": 325
+        },
+        {
+          "path": ".gitignore",
+          "size": 2298
+        },
+        {
+          "path": "Dockerfile",
+          "size": 496
+        },
+        {
+          "path": "LICENSE",
+          "size": 1073
+        },
+        {
+          "path": "OPERATIONS.md",
+          "size": 7512
+        },
+        {
+          "path": "README.md",
+          "size": 2793
+        },
+        {
+          "path": "README.ru.md",
+          "size": 4097
+        },
+        {
+          "path": "assets/icon.svg",
+          "size": 306
+        },
+        {
+          "path": "assets/preview.jpg",
+          "size": 67856
+        },
+        {
+          "path": "i18n/catalog.tsv",
+          "size": 39449
+        },
+        {
+          "path": "ops/Caddyfile.example",
+          "size": 174
+        },
+        {
+          "path": "ops/backup.mjs",
+          "size": 534
+        },
+        {
+          "path": "ops/check.mjs",
+          "size": 2075
+        },
+        {
+          "path": "ops/localize.mjs",
+          "size": 3774
+        },
+        {
+          "path": "ops/minute-club.service.example",
+          "size": 417
+        },
+        {
+          "path": "ops/performance.mjs",
+          "size": 1569
+        },
+        {
+          "path": "ops/syntax.mjs",
+          "size": 198
+        },
+        {
+          "path": "package.json",
+          "size": 364
+        },
+        {
+          "path": "public/about/index.html",
+          "size": 4684
+        },
+        {
+          "path": "public/admin/app.js",
+          "size": 2780
+        },
+        {
+          "path": "public/admin/index.html",
+          "size": 1715
+        },
+        {
+          "path": "public/index.html",
+          "size": 1716
+        },
+        {
+          "path": "public/locales/en/admin/app.js",
+          "size": 2519
+        },
+        {
+          "path": "public/locales/en/minute/app.js",
+          "size": 3435
+        },
+        {
+          "path": "public/locales/en/pages/about/index.html",
+          "size": 3075
+        },
+        {
+          "path": "public/locales/en/pages/admin/index.html",
+          "size": 1481
+        },
+        {
+          "path": "public/locales/en/pages/index.html",
+          "size": 1505
+        },
+        {
+          "path": "public/locales/en/pages/minute/index.html",
+          "size": 1505
+        },
+        {
+          "path": "public/locales/en/shared/editorial.js",
+          "size": 11151
+        },
+        {
+          "path": "public/locales/en/shared/main.js",
+          "size": 3357
+        },
+        {
+          "path": "public/locales/en/shared/project.js",
+          "size": 103
+        },
+        {
+          "path": "public/locales/en/shared/scenes.js",
+          "size": 2668
+        },
+        {
+          "path": "public/locales/en/shared/ui.js",
+          "size": 8351
+        },
+        {
+          "path": "public/locales/ru/admin/app.js",
+          "size": 2791
+        },
+        {
+          "path": "public/locales/ru/minute/app.js",
+          "size": 3963
+        },
+        {
+          "path": "public/locales/ru/pages/about/index.html",
+          "size": 4684
+        },
+        {
+          "path": "public/locales/ru/pages/admin/index.html",
+          "size": 1715
+        },
+        {
+          "path": "public/locales/ru/pages/index.html",
+          "size": 1716
+        },
+        {
+          "path": "public/locales/ru/pages/minute/index.html",
+          "size": 1716
+        },
+        {
+          "path": "public/locales/ru/shared/editorial.js",
+          "size": 13359
+        },
+        {
+          "path": "public/locales/ru/shared/main.js",
+          "size": 3836
+        },
+        {
+          "path": "public/locales/ru/shared/project.js",
+          "size": 103
+        },
+        {
+          "path": "public/locales/ru/shared/scenes.js",
+          "size": 2762
+        },
+        {
+          "path": "public/locales/ru/shared/ui.js",
+          "size": 9291
+        },
+        {
+          "path": "public/minute/app.js",
+          "size": 3952
+        },
+        {
+          "path": "public/minute/index.html",
+          "size": 1716
+        },
+        {
+          "path": "public/shared/boot.js",
+          "size": 1010
+        },
+        {
+          "path": "public/shared/editorial.js",
+          "size": 13359
+        },
+        {
+          "path": "public/shared/favicon.svg",
+          "size": 306
+        },
+        {
+          "path": "public/shared/main.js",
+          "size": 3803
+        },
+        {
+          "path": "public/shared/preferences-model.js",
+          "size": 456
+        },
+        {
+          "path": "public/shared/preferences.js",
+          "size": 886
+        },
+        {
+          "path": "public/shared/project.js",
+          "size": 103
+        },
+        {
+          "path": "public/shared/scenes.js",
+          "size": 2762
+        },
+        {
+          "path": "public/shared/settings.js",
+          "size": 3382
+        },
+        {
+          "path": "public/shared/style.css",
+          "size": 14904
+        },
+        {
+          "path": "public/shared/themes.css",
+          "size": 9106
+        },
+        {
+          "path": "public/shared/ui.js",
+          "size": 9291
+        },
+        {
+          "path": "server/content.mjs",
+          "size": 4740
+        },
+        {
+          "path": "server/index.mjs",
+          "size": 24531
+        },
+        {
+          "path": "server/project.mjs",
+          "size": 36
+        },
+        {
+          "path": "server/store.mjs",
+          "size": 2830
+        },
+        {
+          "path": "server/validation.mjs",
+          "size": 3639
+        },
+        {
+          "path": "tests/preferences.test.mjs",
+          "size": 5245
+        },
+        {
+          "path": "tests/server.test.mjs",
+          "size": 17574
+        },
+        {
+          "path": "tests/static.test.mjs",
+          "size": 951
+        }
+      ],
+      "commits": [
+        {
+          "sha": "4462f88528a5c6e0c4ea3896dc4f0db66fce0f68",
+          "date": "2026-10-28T08:42:31Z"
+        },
+        {
+          "sha": "66c0b35e46476796800c075e971f06d06f38ad6e",
+          "date": "2026-10-27T15:17:09Z"
+        },
+        {
+          "sha": "a521dcca581b9985230ba401e9be00a59084a07e",
+          "date": "2026-10-27T14:53:13Z"
+        }
+      ]
+    },
+    "pixel-rooms": {
+      "files": [
+        {
+          "path": ".dockerignore",
+          "size": 43
+        },
+        {
+          "path": ".env.example",
+          "size": 325
+        },
+        {
+          "path": ".gitignore",
+          "size": 2298
+        },
+        {
+          "path": "Dockerfile",
+          "size": 496
+        },
+        {
+          "path": "LICENSE",
+          "size": 1073
+        },
+        {
+          "path": "OPERATIONS.md",
+          "size": 7512
+        },
+        {
+          "path": "README.md",
+          "size": 2740
+        },
+        {
+          "path": "README.ru.md",
+          "size": 4108
+        },
+        {
+          "path": "assets/icon.svg",
+          "size": 290
+        },
+        {
+          "path": "assets/preview.jpg",
+          "size": 90112
+        },
+        {
+          "path": "i18n/catalog.tsv",
+          "size": 39449
+        },
+        {
+          "path": "ops/Caddyfile.example",
+          "size": 174
+        },
+        {
+          "path": "ops/backup.mjs",
+          "size": 534
+        },
+        {
+          "path": "ops/check.mjs",
+          "size": 2075
+        },
+        {
+          "path": "ops/localize.mjs",
+          "size": 3774
+        },
+        {
+          "path": "ops/minute-club.service.example",
+          "size": 417
+        },
+        {
+          "path": "ops/performance.mjs",
+          "size": 1569
+        },
+        {
+          "path": "ops/syntax.mjs",
+          "size": 198
+        },
+        {
+          "path": "package.json",
+          "size": 363
+        },
+        {
+          "path": "public/about/index.html",
+          "size": 4684
+        },
+        {
+          "path": "public/admin/app.js",
+          "size": 2780
+        },
+        {
+          "path": "public/admin/index.html",
+          "size": 1715
+        },
+        {
+          "path": "public/house/app.js",
+          "size": 8280
+        },
+        {
+          "path": "public/house/index.html",
+          "size": 1708
+        },
+        {
+          "path": "public/index.html",
+          "size": 1708
+        },
+        {
+          "path": "public/locales/en/admin/app.js",
+          "size": 2519
+        },
+        {
+          "path": "public/locales/en/house/app.js",
+          "size": 7372
+        },
+        {
+          "path": "public/locales/en/pages/about/index.html",
+          "size": 3075
+        },
+        {
+          "path": "public/locales/en/pages/admin/index.html",
+          "size": 1481
+        },
+        {
+          "path": "public/locales/en/pages/house/index.html",
+          "size": 1482
+        },
+        {
+          "path": "public/locales/en/pages/index.html",
+          "size": 1482
+        },
+        {
+          "path": "public/locales/en/shared/editorial.js",
+          "size": 11151
+        },
+        {
+          "path": "public/locales/en/shared/main.js",
+          "size": 3357
+        },
+        {
+          "path": "public/locales/en/shared/project.js",
+          "size": 103
+        },
+        {
+          "path": "public/locales/en/shared/scenes.js",
+          "size": 2668
+        },
+        {
+          "path": "public/locales/en/shared/ui.js",
+          "size": 8351
+        },
+        {
+          "path": "public/locales/ru/admin/app.js",
+          "size": 2791
+        },
+        {
+          "path": "public/locales/ru/house/app.js",
+          "size": 8291
+        },
+        {
+          "path": "public/locales/ru/pages/about/index.html",
+          "size": 4684
+        },
+        {
+          "path": "public/locales/ru/pages/admin/index.html",
+          "size": 1715
+        },
+        {
+          "path": "public/locales/ru/pages/house/index.html",
+          "size": 1708
+        },
+        {
+          "path": "public/locales/ru/pages/index.html",
+          "size": 1708
+        },
+        {
+          "path": "public/locales/ru/shared/editorial.js",
+          "size": 13359
+        },
+        {
+          "path": "public/locales/ru/shared/main.js",
+          "size": 3836
+        },
+        {
+          "path": "public/locales/ru/shared/project.js",
+          "size": 103
+        },
+        {
+          "path": "public/locales/ru/shared/scenes.js",
+          "size": 2762
+        },
+        {
+          "path": "public/locales/ru/shared/ui.js",
+          "size": 9291
+        },
+        {
+          "path": "public/shared/boot.js",
+          "size": 1010
+        },
+        {
+          "path": "public/shared/editorial.js",
+          "size": 13359
+        },
+        {
+          "path": "public/shared/favicon.svg",
+          "size": 290
+        },
+        {
+          "path": "public/shared/main.js",
+          "size": 3803
+        },
+        {
+          "path": "public/shared/preferences-model.js",
+          "size": 456
+        },
+        {
+          "path": "public/shared/preferences.js",
+          "size": 886
+        },
+        {
+          "path": "public/shared/project.js",
+          "size": 103
+        },
+        {
+          "path": "public/shared/scenes.js",
+          "size": 2762
+        },
+        {
+          "path": "public/shared/settings.js",
+          "size": 3382
+        },
+        {
+          "path": "public/shared/style.css",
+          "size": 14904
+        },
+        {
+          "path": "public/shared/themes.css",
+          "size": 9106
+        },
+        {
+          "path": "public/shared/ui.js",
+          "size": 9291
+        },
+        {
+          "path": "server/content.mjs",
+          "size": 4740
+        },
+        {
+          "path": "server/index.mjs",
+          "size": 24531
+        },
+        {
+          "path": "server/project.mjs",
+          "size": 35
+        },
+        {
+          "path": "server/store.mjs",
+          "size": 2830
+        },
+        {
+          "path": "server/validation.mjs",
+          "size": 3639
+        },
+        {
+          "path": "tests/preferences.test.mjs",
+          "size": 5245
+        },
+        {
+          "path": "tests/server.test.mjs",
+          "size": 17574
+        },
+        {
+          "path": "tests/static.test.mjs",
+          "size": 951
+        }
+      ],
+      "commits": [
+        {
+          "sha": "a18a42e5deeef273df2e6ded45bfc5bd33aa9c89",
+          "date": "2026-10-28T08:41:56Z"
+        },
+        {
+          "sha": "f80831b77e5de9d269c976d47976a0159cbb90f5",
+          "date": "2026-10-27T15:16:46Z"
+        },
+        {
+          "sha": "ace256e1b54d4bec2821d12fe028dbee89cccd7e",
+          "date": "2026-10-27T14:52:42Z"
+        }
+      ]
+    }
+  }
+}

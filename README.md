@@ -1,10 +1,51 @@
-<p><strong>English</strong> · <a href="README.ru.md">Русский</a></p>
+**English** · [Русский](README.ru.md)
 
-# den9911
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile/intro-en-dark.svg">
+  <img src="assets/profile/intro-en-light.svg" width="1080" alt="den9911 — Rust, backend, full-stack, AI and automation">
+</picture>
 
-## Small apps. Something to do together.
+I build backend services, web applications, and automation tools. **Rust is my primary focus**: ownership, async programming, and predictable behavior. TypeScript, JavaScript, and Python round out the toolkit for product work.
 
-Draw from memory. Read the room. Give a picture its punchline. Nine independent web projects for small creative breaks and shared decisions.
+[Technology](#working-stack) · [Charts](#public-code) · [Projects](#start-here) · [Portfolio](https://den9911.github.io/den9911/docs/)
+
+## Working stack
+
+<p>
+  <img src="assets/rust-badge.svg" width="38" height="38" alt="Rust"> &nbsp;
+  <img src="assets/typescript.svg" width="38" height="38" alt="TypeScript"> &nbsp;
+  <img src="assets/javascript.svg" width="38" height="38" alt="JavaScript"> &nbsp;
+  <img src="assets/python.svg" width="38" height="38" alt="Python"> &nbsp;
+</p>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile/stack-en-dark.svg">
+  <img src="assets/profile/stack-en-light.svg" width="1080" alt="Rust/Tokio/Serde/teloxide; TypeScript/React/Vue; Node.js/APIs; databases; infrastructure; Python/AI">
+</picture>
+
+<details>
+<summary>Tools and engineering practices</summary>
+
+| Area | Tools and practices |
+| --- | --- |
+| Quality | Jest · Cypress · pytest · ESLint · Prettier |
+| Delivery | Git · GitHub Actions · GitLab CI/CD · Vite · Webpack |
+| Architecture | REST/GraphQL contracts · WebSockets · observability |
+| Collaboration | Code review · documentation · Mermaid · Figma |
+| Other platforms | PHP · Laravel · WordPress |
+
+</details>
+
+## Public code
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile/activity-en-dark.svg">
+  <img src="assets/profile/activity-en-light.svg" width="1080" alt="Source composition and 14-day commit activity across nine public repositories; the snapshot date is shown on the chart.">
+</picture>
+
+This public collection contains web apps, so its chart reflects web technologies. It measures source size, not my full experience or Rust proficiency. [How the data is measured and refreshed](profile/README.md).
+
+---
 
 ### Start here
 
@@ -31,9 +72,7 @@ Draw from memory. Read the room. Give a picture its punchline. Nine independent 
 
 These apps use native HTML, CSS, and JavaScript. Four have an incremental TypeScript migration; seven use Node.js and SQLite for shared data. Memory Sketch and Excuse Bureau run entirely in the browser. Each README includes setup instructions and a Russian translation.
 
-My broader focus is Rust, AI tooling, and Python automation.
 
-<p><img src="assets/rust-badge.svg" width="32" height="32" alt="Rust"> &nbsp; <img src="assets/python.svg" width="32" height="32" alt="Python"> &nbsp; <img src="assets/javascript.svg" width="32" height="32" alt="JavaScript"> &nbsp; <img src="assets/typescript.svg" width="32" height="32" alt="TypeScript"> &nbsp; </p>
 
 ### More to explore
 

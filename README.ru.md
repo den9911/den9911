@@ -1,10 +1,51 @@
-<p><a href="README.md">English</a> · <strong>Русский</strong></p>
+[English](README.md) · **Русский**
 
-# den9911
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile/intro-ru-dark.svg">
+  <img src="assets/profile/intro-ru-light.svg" width="1080" alt="den9911 — Rust, backend, full-stack, AI и автоматизация">
+</picture>
 
-## Маленькие приложения. Общие впечатления.
+Создаю серверные приложения, веб-интерфейсы и инструменты автоматизации. **Rust — моё основное направление**: владение, асинхронность и предсказуемое поведение. TypeScript, JavaScript и Python дополняют этот набор в продуктовой работе.
 
-Нарисовать по памяти. Угадать мнение большинства. Придумать подпись к картинке. Девять независимых веб-проектов для творчества, общения и совместных решений.
+[Технологии](#рабочий-стек) · [Графики](#публичный-код) · [Проекты](#с-чего-начать) · [Портфолио](https://den9911.github.io/den9911/docs/)
+
+## Рабочий стек
+
+<p>
+  <img src="assets/rust-badge.svg" width="38" height="38" alt="Rust"> &nbsp;
+  <img src="assets/typescript.svg" width="38" height="38" alt="TypeScript"> &nbsp;
+  <img src="assets/javascript.svg" width="38" height="38" alt="JavaScript"> &nbsp;
+  <img src="assets/python.svg" width="38" height="38" alt="Python"> &nbsp;
+</p>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile/stack-ru-dark.svg">
+  <img src="assets/profile/stack-ru-light.svg" width="1080" alt="Rust/Tokio/Serde/teloxide; TypeScript/React/Vue; Node.js/API; базы данных; инфраструктура; Python/AI">
+</picture>
+
+<details>
+<summary>Инструменты и инженерные практики</summary>
+
+| Направление | Инструменты и подходы |
+| --- | --- |
+| Качество | Jest · Cypress · pytest · ESLint · Prettier |
+| Доставка | Git · GitHub Actions · GitLab CI/CD · Vite · Webpack |
+| Архитектура | REST/GraphQL-контракты · WebSockets · наблюдаемость |
+| Работа в команде | Code review · документация · Mermaid · Figma |
+| Другие платформы | PHP · Laravel · WordPress |
+
+</details>
+
+## Публичный код
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile/activity-ru-dark.svg">
+  <img src="assets/profile/activity-ru-light.svg" width="1080" alt="Состав исходников и коммиты за 14 дней в девяти публичных репозиториях; дата снимка указана на графике.">
+</picture>
+
+Эта публичная коллекция состоит из веб-приложений, поэтому в графике преобладают веб-технологии. Он показывает объём исходников, а не весь мой опыт или уровень владения Rust. [Как считаются данные и обновляются графики](profile/README.md).
+
+---
 
 ### С чего начать
 
@@ -31,9 +72,7 @@
 
 Приложения используют HTML, CSS и JavaScript. В четырёх начат переход на TypeScript; семь используют Node.js и SQLite для общих данных. Memory Sketch и Excuse Bureau работают целиком в браузере. В каждом README есть инструкции запуска и русская версия.
 
-Основное направление моего развития — Rust, инструменты для AI и автоматизация на Python.
 
-<p><img src="assets/rust-badge.svg" width="32" height="32" alt="Rust"> &nbsp; <img src="assets/python.svg" width="32" height="32" alt="Python"> &nbsp; <img src="assets/javascript.svg" width="32" height="32" alt="JavaScript"> &nbsp; <img src="assets/typescript.svg" width="32" height="32" alt="TypeScript"> &nbsp; </p>
 
 ### Ещё кое-что
 
