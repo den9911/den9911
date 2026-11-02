@@ -1,5 +1,12 @@
 name: Refresh profile visuals
 on:
+  schedule:
+    - cron: '23 */6 * * *'
+  push:
+    branches: [main]
+    paths:
+      - 'profile/**'
+      - '.github/workflows/profile-visuals.yml'
   workflow_dispatch:
 permissions:
   contents: write
@@ -9,18 +16,26 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Test snapshot rules
+        run: |
+          python3 -m unittest discover -s profile/tests
+          node --test profile/tests/activity.test.mjs
       - name: Fetch public snapshot and render diagrams
         env:
           GITHUB_TOKEN: ${{ github.token }}
         run: python3 profile/refresh.py
       - name: Commit updated visuals
         run: |
-          git add profile/data.json assets/profile/
+          git add profile/data.json assets/profile/ docs/activity.json README.md README.ru.md
           if git diff --cached --quiet; then exit 0; fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
