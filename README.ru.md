@@ -51,8 +51,8 @@
 ## Активность публичного кода
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/profile/activity-ru-dark.svg?v=20261102115540604">
-  <img src="assets/profile/activity-ru-light.svg?v=20261102115540604" width="1080" alt="Состав исходников, общее число коммитов и активность за 30 дней в 15 публичных репозиториях; время обновления указано на графике.">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile/activity-ru-dark.svg?v=202611021159030000">
+  <img src="assets/profile/activity-ru-light.svg?v=202611021159030000" width="1080" alt="Состав исходников, общее число коммитов и активность за 30 дней в 15 публичных репозиториях; время обновления указано на графике.">
 </picture>
 
 История основных веток 15 публичных репозиториев, включая Rust-приложения и профиль. Обновление по расписанию каждые шесть часов; время указано на графике. Учтены коммиты автоматизации; это не счётчик личных contributions. [Интерактивная статистика →](https://den9911.github.io/den9911/docs/#activity) [Методика и обновление](profile/README.md).
