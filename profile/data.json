@@ -1,13 +1,13 @@
 {
   "schema": 2,
   "as_of": "2026-11-03",
-  "updated_at": "2026-11-03T06:59:41+00:00",
+  "updated_at": "2026-11-03T19:38:06+00:00",
   "window_days": 90,
   "repositories": {
     "caption-club": {
-      "head": "d25e95e9f1ef95def5b1f43ad373a4acd426afcb",
+      "head": "9c48eff20325f3dd0e8dbccd9680a8728f84fc0c",
       "branch": "main",
-      "total_commits": 10,
+      "total_commits": 11,
       "files": [
         {
           "path": ".dockerignore",
@@ -39,11 +39,11 @@
         },
         {
           "path": "README.md",
-          "size": 3842
+          "size": 4640
         },
         {
           "path": "README.ru.md",
-          "size": 5444
+          "size": 6242
         },
         {
           "path": "TYPESCRIPT.md",
@@ -59,7 +59,7 @@
         },
         {
           "path": "i18n/catalog.tsv",
-          "size": 39736
+          "size": 41209
         },
         {
           "path": "index.html",
@@ -171,7 +171,7 @@
         },
         {
           "path": "public/locales/en/shared/scenes.js",
-          "size": 4818
+          "size": 5399
         },
         {
           "path": "public/locales/en/shared/ui.js",
@@ -215,7 +215,7 @@
         },
         {
           "path": "public/locales/ru/shared/scenes.js",
-          "size": 4991
+          "size": 6060
         },
         {
           "path": "public/locales/ru/shared/ui.js",
@@ -251,7 +251,7 @@
         },
         {
           "path": "public/shared/scenes.js",
-          "size": 4991
+          "size": 6060
         },
         {
           "path": "public/shared/settings.js",
@@ -279,11 +279,15 @@
         },
         {
           "path": "server/index.mjs",
-          "size": 23281
+          "size": 23992
         },
         {
           "path": "server/project.mjs",
           "size": 37
+        },
+        {
+          "path": "server/startup.mjs",
+          "size": 2573
         },
         {
           "path": "server/store.mjs",
@@ -318,12 +322,20 @@
           "size": 5322
         },
         {
+          "path": "tests/scene-descriptions.test.mjs",
+          "size": 493
+        },
+        {
           "path": "tests/scenes.test.mjs",
           "size": 496
         },
         {
           "path": "tests/server.test.mjs",
           "size": 17574
+        },
+        {
+          "path": "tests/startup.test.mjs",
+          "size": 1117
         },
         {
           "path": "tests/static.test.mjs",
@@ -335,6 +347,10 @@
         }
       ],
       "commits": [
+        {
+          "sha": "9c48eff20325f3dd0e8dbccd9680a8728f84fc0c",
+          "date": "2026-11-03T19:11:31Z"
+        },
         {
           "sha": "d25e95e9f1ef95def5b1f43ad373a4acd426afcb",
           "date": "2026-11-03T01:09:49Z"
@@ -378,9 +394,9 @@
       ]
     },
     "majority-vote": {
-      "head": "0a8cd025cbdac674ee9ca9dced271af505460494",
+      "head": "960e61515b8f80470833964c91b18f5787ba1ece",
       "branch": "main",
-      "total_commits": 8,
+      "total_commits": 9,
       "files": [
         {
           "path": ".dockerignore",
@@ -412,11 +428,11 @@
         },
         {
           "path": "README.md",
-          "size": 3706
+          "size": 4152
         },
         {
           "path": "README.ru.md",
-          "size": 5163
+          "size": 5609
         },
         {
           "path": "TYPESCRIPT.md",
@@ -648,11 +664,15 @@
         },
         {
           "path": "server/index.mjs",
-          "size": 24531
+          "size": 25242
         },
         {
           "path": "server/project.mjs",
           "size": 38
+        },
+        {
+          "path": "server/startup.mjs",
+          "size": 2573
         },
         {
           "path": "server/store.mjs",
@@ -687,6 +707,10 @@
           "size": 17574
         },
         {
+          "path": "tests/startup.test.mjs",
+          "size": 1117
+        },
+        {
           "path": "tests/static.test.mjs",
           "size": 951
         },
@@ -696,6 +720,10 @@
         }
       ],
       "commits": [
+        {
+          "sha": "960e61515b8f80470833964c91b18f5787ba1ece",
+          "date": "2026-11-03T19:11:52Z"
+        },
         {
           "sha": "0a8cd025cbdac674ee9ca9dced271af505460494",
           "date": "2026-10-30T07:36:20Z"
@@ -731,9 +759,9 @@
       ]
     },
     "meme-arena": {
-      "head": "a5895414c1b0d2ffdae918016d22be0c898231a4",
+      "head": "e72b209fae304661f41765732c014efddeb4a35a",
       "branch": "main",
-      "total_commits": 8,
+      "total_commits": 9,
       "files": [
         {
           "path": ".dockerignore",
@@ -765,11 +793,11 @@
         },
         {
           "path": "README.md",
-          "size": 3942
+          "size": 4983
         },
         {
           "path": "README.ru.md",
-          "size": 5752
+          "size": 6793
         },
         {
           "path": "TYPESCRIPT.md",
@@ -785,7 +813,7 @@
         },
         {
           "path": "i18n/catalog.tsv",
-          "size": 40936
+          "size": 41166
         },
         {
           "path": "index.html",
@@ -841,7 +869,7 @@
         },
         {
           "path": "public/admin/app.js",
-          "size": 2780
+          "size": 3304
         },
         {
           "path": "public/admin/index.html",
@@ -861,7 +889,7 @@
         },
         {
           "path": "public/locales/en/admin/app.js",
-          "size": 2519
+          "size": 3019
         },
         {
           "path": "public/locales/en/arena/app.js",
@@ -901,11 +929,11 @@
         },
         {
           "path": "public/locales/en/shared/ui.js",
-          "size": 8351
+          "size": 8586
         },
         {
           "path": "public/locales/ru/admin/app.js",
-          "size": 2791
+          "size": 3315
         },
         {
           "path": "public/locales/ru/arena/app.js",
@@ -945,7 +973,7 @@
         },
         {
           "path": "public/locales/ru/shared/ui.js",
-          "size": 9291
+          "size": 9595
         },
         {
           "path": "public/shared/boot.js",
@@ -993,7 +1021,7 @@
         },
         {
           "path": "public/shared/ui.js",
-          "size": 9291
+          "size": 9595
         },
         {
           "path": "server/content.mjs",
@@ -1001,15 +1029,19 @@
         },
         {
           "path": "server/index.mjs",
-          "size": 24541
+          "size": 25745
         },
         {
           "path": "server/project.mjs",
           "size": 35
         },
         {
+          "path": "server/startup.mjs",
+          "size": 2573
+        },
+        {
           "path": "server/store.mjs",
-          "size": 2830
+          "size": 3001
         },
         {
           "path": "server/validation.mjs",
@@ -1032,12 +1064,20 @@
           "size": 3862
         },
         {
+          "path": "tests/alt.test.mjs",
+          "size": 2560
+        },
+        {
           "path": "tests/preferences.test.mjs",
           "size": 5322
         },
         {
           "path": "tests/server.test.mjs",
           "size": 17574
+        },
+        {
+          "path": "tests/startup.test.mjs",
+          "size": 1117
         },
         {
           "path": "tests/static.test.mjs",
@@ -1049,6 +1089,10 @@
         }
       ],
       "commits": [
+        {
+          "sha": "e72b209fae304661f41765732c014efddeb4a35a",
+          "date": "2026-11-03T19:11:10Z"
+        },
         {
           "sha": "a5895414c1b0d2ffdae918016d22be0c898231a4",
           "date": "2026-10-30T07:41:56Z"
@@ -1084,9 +1128,9 @@
       ]
     },
     "memory-sketch": {
-      "head": "589304146fb88bce4c1215474cfc1735136e626f",
+      "head": "b15663aab6115e7a3e4104ead9e9bd352a6308b9",
       "branch": "main",
-      "total_commits": 10,
+      "total_commits": 12,
       "files": [
         {
           "path": ".github/workflows/pages.yml",
@@ -1106,11 +1150,11 @@
         },
         {
           "path": "README.md",
-          "size": 3644
+          "size": 4444
         },
         {
           "path": "README.ru.md",
-          "size": 4854
+          "size": 5654
         },
         {
           "path": "TYPESCRIPT.md",
@@ -1126,7 +1170,7 @@
         },
         {
           "path": "i18n/catalog.tsv",
-          "size": 39725
+          "size": 39768
         },
         {
           "path": "ops/check-static.mjs",
@@ -1134,11 +1178,15 @@
         },
         {
           "path": "ops/localize.mjs",
-          "size": 3774
+          "size": 3808
+        },
+        {
+          "path": "ops/offline.mjs",
+          "size": 2418
         },
         {
           "path": "ops/pages.mjs",
-          "size": 1257
+          "size": 1327
         },
         {
           "path": "ops/performance.mjs",
@@ -1162,19 +1210,19 @@
         },
         {
           "path": "package.json",
-          "size": 436
+          "size": 467
         },
         {
           "path": "public/about/index.html",
-          "size": 3000
+          "size": 3048
         },
         {
           "path": "public/index.html",
-          "size": 1699
+          "size": 1747
         },
         {
           "path": "public/locales/en/memory/app.js",
-          "size": 7299
+          "size": 7875
         },
         {
           "path": "public/locales/en/memory/draft.js",
@@ -1186,15 +1234,15 @@
         },
         {
           "path": "public/locales/en/pages/about/index.html",
-          "size": 2183
+          "size": 2231
         },
         {
           "path": "public/locales/en/pages/index.html",
-          "size": 1482
+          "size": 1530
         },
         {
           "path": "public/locales/en/pages/memory/index.html",
-          "size": 1482
+          "size": 1530
         },
         {
           "path": "public/locales/en/shared/editorial.js",
@@ -1203,6 +1251,10 @@
         {
           "path": "public/locales/en/shared/main.js",
           "size": 3357
+        },
+        {
+          "path": "public/locales/en/shared/offline.js",
+          "size": 2930
         },
         {
           "path": "public/locales/en/shared/project.js",
@@ -1218,7 +1270,7 @@
         },
         {
           "path": "public/locales/ru/memory/app.js",
-          "size": 7809
+          "size": 8416
         },
         {
           "path": "public/locales/ru/memory/draft.js",
@@ -1230,15 +1282,15 @@
         },
         {
           "path": "public/locales/ru/pages/about/index.html",
-          "size": 3000
+          "size": 3048
         },
         {
           "path": "public/locales/ru/pages/index.html",
-          "size": 1699
+          "size": 1747
         },
         {
           "path": "public/locales/ru/pages/memory/index.html",
-          "size": 1699
+          "size": 1747
         },
         {
           "path": "public/locales/ru/shared/editorial.js",
@@ -1247,6 +1299,10 @@
         {
           "path": "public/locales/ru/shared/main.js",
           "size": 3836
+        },
+        {
+          "path": "public/locales/ru/shared/offline.js",
+          "size": 2930
         },
         {
           "path": "public/locales/ru/shared/project.js",
@@ -1262,7 +1318,7 @@
         },
         {
           "path": "public/memory/app.js",
-          "size": 7765
+          "size": 8372
         },
         {
           "path": "public/memory/draft.js",
@@ -1274,7 +1330,7 @@
         },
         {
           "path": "public/memory/index.html",
-          "size": 1699
+          "size": 1747
         },
         {
           "path": "public/shared/boot.js",
@@ -1291,6 +1347,10 @@
         {
           "path": "public/shared/main.js",
           "size": 3803
+        },
+        {
+          "path": "public/shared/offline.js",
+          "size": 2930
         },
         {
           "path": "public/shared/preferences-model.js",
@@ -1325,6 +1385,10 @@
           "size": 9291
         },
         {
+          "path": "public/sw.js",
+          "size": 2208
+        },
+        {
           "path": "src/contracts.ts",
           "size": 867
         },
@@ -1354,6 +1418,14 @@
         }
       ],
       "commits": [
+        {
+          "sha": "b15663aab6115e7a3e4104ead9e9bd352a6308b9",
+          "date": "2026-11-03T19:17:02Z"
+        },
+        {
+          "sha": "469b7e9e6f26db7cbcd17d1267c12ae10b579d75",
+          "date": "2026-11-03T19:09:11Z"
+        },
         {
           "sha": "589304146fb88bce4c1215474cfc1735136e626f",
           "date": "2026-11-02T10:49:00Z"
@@ -1397,13 +1469,17 @@
       ]
     },
     "excuse-bureau": {
-      "head": "10e30ccfdbecd38edfe69d259554866d10e0d085",
+      "head": "19f41e899432c0f92c07b61ae5975ec24c4b253d",
       "branch": "main",
-      "total_commits": 9,
+      "total_commits": 12,
       "files": [
         {
           "path": ".github/workflows/pages.yml",
           "size": 795
+        },
+        {
+          "path": ".github/workflows/verify.yml",
+          "size": 414
         },
         {
           "path": ".gitignore",
@@ -1415,11 +1491,11 @@
         },
         {
           "path": "README.md",
-          "size": 2674
+          "size": 3338
         },
         {
           "path": "README.ru.md",
-          "size": 3770
+          "size": 4434
         },
         {
           "path": "assets/icon.svg",
@@ -1439,11 +1515,15 @@
         },
         {
           "path": "ops/localize.mjs",
-          "size": 3774
+          "size": 3808
+        },
+        {
+          "path": "ops/offline.mjs",
+          "size": 2418
         },
         {
           "path": "ops/pages.mjs",
-          "size": 1257
+          "size": 1327
         },
         {
           "path": "ops/performance.mjs",
@@ -1455,27 +1535,27 @@
         },
         {
           "path": "package.json",
-          "size": 234
+          "size": 265
         },
         {
           "path": "public/about/index.html",
-          "size": 3094
+          "size": 3142
         },
         {
           "path": "public/index.html",
-          "size": 1704
+          "size": 1752
         },
         {
           "path": "public/locales/en/pages/about/index.html",
-          "size": 2243
+          "size": 2291
         },
         {
           "path": "public/locales/en/pages/index.html",
-          "size": 1493
+          "size": 1541
         },
         {
           "path": "public/locales/en/pages/papers/index.html",
-          "size": 1493
+          "size": 1541
         },
         {
           "path": "public/locales/en/papers/app.js",
@@ -1494,6 +1574,10 @@
           "size": 3357
         },
         {
+          "path": "public/locales/en/shared/offline.js",
+          "size": 2930
+        },
+        {
           "path": "public/locales/en/shared/project.js",
           "size": 129
         },
@@ -1507,15 +1591,15 @@
         },
         {
           "path": "public/locales/ru/pages/about/index.html",
-          "size": 3094
+          "size": 3142
         },
         {
           "path": "public/locales/ru/pages/index.html",
-          "size": 1704
+          "size": 1752
         },
         {
           "path": "public/locales/ru/pages/papers/index.html",
-          "size": 1704
+          "size": 1752
         },
         {
           "path": "public/locales/ru/papers/app.js",
@@ -1532,6 +1616,10 @@
         {
           "path": "public/locales/ru/shared/main.js",
           "size": 3836
+        },
+        {
+          "path": "public/locales/ru/shared/offline.js",
+          "size": 2930
         },
         {
           "path": "public/locales/ru/shared/project.js",
@@ -1555,7 +1643,7 @@
         },
         {
           "path": "public/papers/index.html",
-          "size": 1704
+          "size": 1752
         },
         {
           "path": "public/shared/boot.js",
@@ -1572,6 +1660,10 @@
         {
           "path": "public/shared/main.js",
           "size": 3803
+        },
+        {
+          "path": "public/shared/offline.js",
+          "size": 2930
         },
         {
           "path": "public/shared/preferences-model.js",
@@ -1606,6 +1698,10 @@
           "size": 9291
         },
         {
+          "path": "public/sw.js",
+          "size": 2156
+        },
+        {
           "path": "tests/document-date.test.mjs",
           "size": 575
         },
@@ -1619,6 +1715,18 @@
         }
       ],
       "commits": [
+        {
+          "sha": "19f41e899432c0f92c07b61ae5975ec24c4b253d",
+          "date": "2026-11-03T19:19:43Z"
+        },
+        {
+          "sha": "5c3f3f778474046500903fc94b1ea02adef19227",
+          "date": "2026-11-03T19:17:51Z"
+        },
+        {
+          "sha": "52db4d240181a0f9fcf9899ecf9c88651bde636c",
+          "date": "2026-11-03T19:09:30Z"
+        },
         {
           "sha": "10e30ccfdbecd38edfe69d259554866d10e0d085",
           "date": "2026-11-03T01:17:55Z"
@@ -1658,9 +1766,9 @@
       ]
     },
     "crowd-decides": {
-      "head": "1b75cb03ec645d8f2aa1ddea9c7240299fc796bf",
+      "head": "a9e1a844ea98cd09d6ea0ae046ca3a9fad06a1ab",
       "branch": "main",
-      "total_commits": 6,
+      "total_commits": 8,
       "files": [
         {
           "path": ".dockerignore",
@@ -1669,6 +1777,10 @@
         {
           "path": ".env.example",
           "size": 325
+        },
+        {
+          "path": ".github/workflows/verify.yml",
+          "size": 746
         },
         {
           "path": ".gitignore",
@@ -1688,11 +1800,11 @@
         },
         {
           "path": "README.md",
-          "size": 2784
+          "size": 3830
         },
         {
           "path": "README.ru.md",
-          "size": 4246
+          "size": 5292
         },
         {
           "path": "assets/icon.svg",
@@ -1704,7 +1816,7 @@
         },
         {
           "path": "i18n/catalog.tsv",
-          "size": 39692
+          "size": 40062
         },
         {
           "path": "index.html",
@@ -1756,7 +1868,7 @@
         },
         {
           "path": "public/decide/app.js",
-          "size": 4036
+          "size": 4638
         },
         {
           "path": "public/decide/index.html",
@@ -1772,7 +1884,7 @@
         },
         {
           "path": "public/locales/en/decide/app.js",
-          "size": 3483
+          "size": 4020
         },
         {
           "path": "public/locales/en/pages/about/index.html",
@@ -1816,7 +1928,7 @@
         },
         {
           "path": "public/locales/ru/decide/app.js",
-          "size": 4047
+          "size": 4649
         },
         {
           "path": "public/locales/ru/pages/about/index.html",
@@ -1908,11 +2020,15 @@
         },
         {
           "path": "server/index.mjs",
-          "size": 25061
+          "size": 26107
         },
         {
           "path": "server/project.mjs",
           "size": 36
+        },
+        {
+          "path": "server/startup.mjs",
+          "size": 2573
         },
         {
           "path": "server/store.mjs",
@@ -1923,6 +2039,10 @@
           "size": 3639
         },
         {
+          "path": "tests/poll-template.test.mjs",
+          "size": 1809
+        },
+        {
           "path": "tests/preferences.test.mjs",
           "size": 5245
         },
@@ -1931,11 +2051,23 @@
           "size": 18048
         },
         {
+          "path": "tests/startup.test.mjs",
+          "size": 1117
+        },
+        {
           "path": "tests/static.test.mjs",
           "size": 951
         }
       ],
       "commits": [
+        {
+          "sha": "a9e1a844ea98cd09d6ea0ae046ca3a9fad06a1ab",
+          "date": "2026-11-03T19:26:46Z"
+        },
+        {
+          "sha": "68f50b9a9d430099d9f5f00ddef34904cbcb9789",
+          "date": "2026-11-03T19:10:15Z"
+        },
         {
           "sha": "1b75cb03ec645d8f2aa1ddea9c7240299fc796bf",
           "date": "2026-10-30T07:50:42Z"
@@ -1963,9 +2095,9 @@
       ]
     },
     "pixel-rooms": {
-      "head": "40e0531007acd32673c5a0798b4d2a89c8ece464",
+      "head": "d9a7852b382d6c4dabcf9a49d25ca9a8c7aeec30",
       "branch": "main",
-      "total_commits": 9,
+      "total_commits": 11,
       "files": [
         {
           "path": ".dockerignore",
@@ -1974,6 +2106,10 @@
         {
           "path": ".env.example",
           "size": 325
+        },
+        {
+          "path": ".github/workflows/verify.yml",
+          "size": 746
         },
         {
           "path": ".gitignore",
@@ -1993,11 +2129,11 @@
         },
         {
           "path": "README.md",
-          "size": 3017
+          "size": 3878
         },
         {
           "path": "README.ru.md",
-          "size": 4556
+          "size": 5417
         },
         {
           "path": "assets/icon.svg",
@@ -2009,7 +2145,7 @@
         },
         {
           "path": "i18n/catalog.tsv",
-          "size": 40474
+          "size": 40517
         },
         {
           "path": "index.html",
@@ -2061,7 +2197,7 @@
         },
         {
           "path": "public/house/app.js",
-          "size": 12156
+          "size": 12580
         },
         {
           "path": "public/house/draft.js",
@@ -2085,7 +2221,7 @@
         },
         {
           "path": "public/locales/en/house/app.js",
-          "size": 10889
+          "size": 11282
         },
         {
           "path": "public/locales/en/house/draft.js",
@@ -2137,7 +2273,7 @@
         },
         {
           "path": "public/locales/ru/house/app.js",
-          "size": 12189
+          "size": 12613
         },
         {
           "path": "public/locales/ru/house/draft.js",
@@ -2237,11 +2373,15 @@
         },
         {
           "path": "server/index.mjs",
-          "size": 24531
+          "size": 25242
         },
         {
           "path": "server/project.mjs",
           "size": 35
+        },
+        {
+          "path": "server/startup.mjs",
+          "size": 2573
         },
         {
           "path": "server/store.mjs",
@@ -2264,6 +2404,10 @@
           "size": 17574
         },
         {
+          "path": "tests/startup.test.mjs",
+          "size": 1117
+        },
+        {
           "path": "tests/static.test.mjs",
           "size": 951
         },
@@ -2273,6 +2417,14 @@
         }
       ],
       "commits": [
+        {
+          "sha": "d9a7852b382d6c4dabcf9a49d25ca9a8c7aeec30",
+          "date": "2026-11-03T19:26:25Z"
+        },
+        {
+          "sha": "7019ce4ae7720e048bb95c8affd2af9d48fc5ffa",
+          "date": "2026-11-03T19:09:50Z"
+        },
         {
           "sha": "40e0531007acd32673c5a0798b4d2a89c8ece464",
           "date": "2026-11-03T01:18:09Z"
@@ -2312,9 +2464,9 @@
       ]
     },
     "daily-minute": {
-      "head": "fcbf1583851e68f05e194309a7d25105da0e7e30",
+      "head": "1328303c2c52ef4080a5ac379ee0736fbed0eaa4",
       "branch": "main",
-      "total_commits": 7,
+      "total_commits": 9,
       "files": [
         {
           "path": ".dockerignore",
@@ -2323,6 +2475,10 @@
         {
           "path": ".env.example",
           "size": 325
+        },
+        {
+          "path": ".github/workflows/verify.yml",
+          "size": 746
         },
         {
           "path": ".gitignore",
@@ -2342,11 +2498,11 @@
         },
         {
           "path": "README.md",
-          "size": 3110
+          "size": 3556
         },
         {
           "path": "README.ru.md",
-          "size": 4688
+          "size": 5134
         },
         {
           "path": "assets/icon.svg",
@@ -2562,11 +2718,15 @@
         },
         {
           "path": "server/index.mjs",
-          "size": 24531
+          "size": 25242
         },
         {
           "path": "server/project.mjs",
           "size": 36
+        },
+        {
+          "path": "server/startup.mjs",
+          "size": 2573
         },
         {
           "path": "server/store.mjs",
@@ -2585,11 +2745,23 @@
           "size": 17574
         },
         {
+          "path": "tests/startup.test.mjs",
+          "size": 1117
+        },
+        {
           "path": "tests/static.test.mjs",
           "size": 951
         }
       ],
       "commits": [
+        {
+          "sha": "1328303c2c52ef4080a5ac379ee0736fbed0eaa4",
+          "date": "2026-11-03T19:27:33Z"
+        },
+        {
+          "sha": "6ecfadb9dab08202348d68422bf30d1b1addfbf7",
+          "date": "2026-11-03T19:12:15Z"
+        },
         {
           "sha": "fcbf1583851e68f05e194309a7d25105da0e7e30",
           "date": "2026-11-03T01:16:07Z"
@@ -2621,9 +2793,9 @@
       ]
     },
     "odd-finds": {
-      "head": "ac35facdc48ea426c7181f71e3e0093173795bf1",
+      "head": "c44521caa21531fd7fd06b137e7275be9d3ef81c",
       "branch": "main",
-      "total_commits": 6,
+      "total_commits": 8,
       "files": [
         {
           "path": ".dockerignore",
@@ -2632,6 +2804,10 @@
         {
           "path": ".env.example",
           "size": 335
+        },
+        {
+          "path": ".github/workflows/verify.yml",
+          "size": 746
         },
         {
           "path": ".gitignore",
@@ -2651,11 +2827,11 @@
         },
         {
           "path": "README.md",
-          "size": 2990
+          "size": 4031
         },
         {
           "path": "README.ru.md",
-          "size": 4694
+          "size": 5735
         },
         {
           "path": "assets/icon.svg",
@@ -2667,7 +2843,7 @@
         },
         {
           "path": "i18n/catalog.tsv",
-          "size": 39738
+          "size": 39968
         },
         {
           "path": "index.html",
@@ -2711,7 +2887,7 @@
         },
         {
           "path": "public/admin/app.js",
-          "size": 2780
+          "size": 3304
         },
         {
           "path": "public/admin/index.html",
@@ -2719,7 +2895,7 @@
         },
         {
           "path": "public/finds/app.js",
-          "size": 4620
+          "size": 4761
         },
         {
           "path": "public/finds/index.html",
@@ -2731,11 +2907,11 @@
         },
         {
           "path": "public/locales/en/admin/app.js",
-          "size": 2519
+          "size": 3019
         },
         {
           "path": "public/locales/en/finds/app.js",
-          "size": 4219
+          "size": 4338
         },
         {
           "path": "public/locales/en/pages/about/index.html",
@@ -2771,15 +2947,15 @@
         },
         {
           "path": "public/locales/en/shared/ui.js",
-          "size": 8351
+          "size": 8586
         },
         {
           "path": "public/locales/ru/admin/app.js",
-          "size": 2791
+          "size": 3315
         },
         {
           "path": "public/locales/ru/finds/app.js",
-          "size": 4653
+          "size": 4794
         },
         {
           "path": "public/locales/ru/pages/about/index.html",
@@ -2815,7 +2991,7 @@
         },
         {
           "path": "public/locales/ru/shared/ui.js",
-          "size": 9291
+          "size": 9595
         },
         {
           "path": "public/shared/boot.js",
@@ -2863,7 +3039,7 @@
         },
         {
           "path": "public/shared/ui.js",
-          "size": 9291
+          "size": 9595
         },
         {
           "path": "server/content.mjs",
@@ -2871,19 +3047,27 @@
         },
         {
           "path": "server/index.mjs",
-          "size": 24956
+          "size": 26160
         },
         {
           "path": "server/project.mjs",
           "size": 35
         },
         {
+          "path": "server/startup.mjs",
+          "size": 2573
+        },
+        {
           "path": "server/store.mjs",
-          "size": 2830
+          "size": 3001
         },
         {
           "path": "server/validation.mjs",
           "size": 3639
+        },
+        {
+          "path": "tests/alt.test.mjs",
+          "size": 2560
         },
         {
           "path": "tests/preferences.test.mjs",
@@ -2894,11 +3078,23 @@
           "size": 18092
         },
         {
+          "path": "tests/startup.test.mjs",
+          "size": 1117
+        },
+        {
           "path": "tests/static.test.mjs",
           "size": 951
         }
       ],
       "commits": [
+        {
+          "sha": "c44521caa21531fd7fd06b137e7275be9d3ef81c",
+          "date": "2026-11-03T19:27:11Z"
+        },
+        {
+          "sha": "96213a41b217c1540b76e12ac1e0b6ea7d83fae3",
+          "date": "2026-11-03T19:10:39Z"
+        },
         {
           "sha": "ac35facdc48ea426c7181f71e3e0093173795bf1",
           "date": "2026-10-30T07:55:05Z"
@@ -2926,13 +3122,13 @@
       ]
     },
     "gather-bot": {
-      "head": "ebd924350ae85ef4dde47233a70c46a5006e6fec",
+      "head": "2a8d29345fb467a415201be6c9bbf904e826de98",
       "branch": "main",
-      "total_commits": 5,
+      "total_commits": 7,
       "files": [
         {
           "path": ".github/workflows/ci.yml",
-          "size": 314
+          "size": 595
         },
         {
           "path": ".gitignore",
@@ -2948,7 +3144,7 @@
         },
         {
           "path": "README.md",
-          "size": 4097
+          "size": 5114
         },
         {
           "path": "assets/cover.svg",
@@ -2960,18 +3156,38 @@
         },
         {
           "path": "run.bat",
-          "size": 246
+          "size": 267
         },
         {
           "path": "run.command",
-          "size": 279
+          "size": 287
+        },
+        {
+          "path": "src/calendar.rs",
+          "size": 1773
         },
         {
           "path": "src/main.rs",
-          "size": 15825
+          "size": 18002
+        },
+        {
+          "path": "src/startup.rs",
+          "size": 1385
+        },
+        {
+          "path": "tests/diagnostics.py",
+          "size": 1237
         }
       ],
       "commits": [
+        {
+          "sha": "2a8d29345fb467a415201be6c9bbf904e826de98",
+          "date": "2026-11-03T19:03:11Z"
+        },
+        {
+          "sha": "735f9229d29c142a9ae62c724b928c8611162bb8",
+          "date": "2026-11-03T18:45:45Z"
+        },
         {
           "sha": "ebd924350ae85ef4dde47233a70c46a5006e6fec",
           "date": "2026-10-30T07:30:16Z"
@@ -2995,13 +3211,13 @@
       ]
     },
     "traceboard": {
-      "head": "0f7850faca4b2a2acc25621ad21e155a9f416442",
+      "head": "4694cf6d4e858dfc6943b99444b85ae6df6db761",
       "branch": "main",
-      "total_commits": 4,
+      "total_commits": 6,
       "files": [
         {
           "path": ".github/workflows/ci.yml",
-          "size": 314
+          "size": 709
         },
         {
           "path": ".gitignore",
@@ -3021,27 +3237,39 @@
         },
         {
           "path": "README.md",
-          "size": 4514
+          "size": 5624
         },
         {
           "path": "run.bat",
-          "size": 232
+          "size": 253
         },
         {
           "path": "run.command",
-          "size": 254
+          "size": 262
         },
         {
           "path": "src/main.rs",
-          "size": 11275
+          "size": 14569
+        },
+        {
+          "path": "src/startup.rs",
+          "size": 1385
         },
         {
           "path": "targets.example.json",
-          "size": 220
+          "size": 316
+        },
+        {
+          "path": "tests/diagnostics.py",
+          "size": 1241
+        },
+        {
+          "path": "tests/http_rules.py",
+          "size": 1962
         },
         {
           "path": "web/app.js",
-          "size": 5270
+          "size": 5501
         },
         {
           "path": "web/cover.svg",
@@ -3057,6 +3285,14 @@
         }
       ],
       "commits": [
+        {
+          "sha": "4694cf6d4e858dfc6943b99444b85ae6df6db761",
+          "date": "2026-11-03T19:03:35Z"
+        },
+        {
+          "sha": "1773877ffb2bcc76ddc3f27b11e983a18c44e33c",
+          "date": "2026-11-03T18:46:59Z"
+        },
         {
           "sha": "0f7850faca4b2a2acc25621ad21e155a9f416442",
           "date": "2026-10-30T07:34:35Z"
@@ -3076,13 +3312,13 @@
       ]
     },
     "relay-room": {
-      "head": "4ae7827eee181450baa3d9ac2de60a5a67317abe",
+      "head": "f69492cbb62e83eab5ff1d1ba9738f2110ae3a8a",
       "branch": "main",
-      "total_commits": 3,
+      "total_commits": 5,
       "files": [
         {
           "path": ".github/workflows/ci.yml",
-          "size": 314
+          "size": 706
         },
         {
           "path": ".gitignore",
@@ -3102,23 +3338,35 @@
         },
         {
           "path": "README.md",
-          "size": 2863
+          "size": 3866
         },
         {
           "path": "run.bat",
-          "size": 162
+          "size": 183
         },
         {
           "path": "run.command",
-          "size": 194
+          "size": 202
         },
         {
           "path": "src/main.rs",
-          "size": 7911
+          "size": 10899
+        },
+        {
+          "path": "src/startup.rs",
+          "size": 1385
+        },
+        {
+          "path": "tests/diagnostics.py",
+          "size": 1236
+        },
+        {
+          "path": "tests/restore.py",
+          "size": 3232
         },
         {
           "path": "web/app.js",
-          "size": 6128
+          "size": 7285
         },
         {
           "path": "web/cover.svg",
@@ -3135,6 +3383,14 @@
       ],
       "commits": [
         {
+          "sha": "f69492cbb62e83eab5ff1d1ba9738f2110ae3a8a",
+          "date": "2026-11-03T19:04:26Z"
+        },
+        {
+          "sha": "f7716cb0305c974c970c7ac0df1bbd5cc5b63d7e",
+          "date": "2026-11-03T18:51:27Z"
+        },
+        {
           "sha": "4ae7827eee181450baa3d9ac2de60a5a67317abe",
           "date": "2026-10-30T07:39:42Z"
         },
@@ -3149,13 +3405,13 @@
       ]
     },
     "pocket-index": {
-      "head": "66abba2213aae4e39bdf66bf6e474e36c272521d",
+      "head": "2d01049b47497ab8ac71e2e3fc4abe347230e4fa",
       "branch": "main",
-      "total_commits": 4,
+      "total_commits": 6,
       "files": [
         {
           "path": ".github/workflows/ci.yml",
-          "size": 432
+          "size": 713
         },
         {
           "path": ".gitignore",
@@ -3175,19 +3431,31 @@
         },
         {
           "path": "README.md",
-          "size": 3006
+          "size": 3768
         },
         {
           "path": "run.bat",
-          "size": 131
+          "size": 152
         },
         {
           "path": "run.command",
-          "size": 154
+          "size": 162
         },
         {
           "path": "src/main.rs",
-          "size": 6320
+          "size": 7242
+        },
+        {
+          "path": "src/query.rs",
+          "size": 1106
+        },
+        {
+          "path": "src/startup.rs",
+          "size": 1385
+        },
+        {
+          "path": "tests/diagnostics.py",
+          "size": 1245
         },
         {
           "path": "tests/smoke.py",
@@ -3195,7 +3463,7 @@
         },
         {
           "path": "web/app.js",
-          "size": 6179
+          "size": 7173
         },
         {
           "path": "web/cover.svg",
@@ -3203,14 +3471,22 @@
         },
         {
           "path": "web/index.html",
-          "size": 2243
+          "size": 2622
         },
         {
           "path": "web/style.css",
-          "size": 4260
+          "size": 4522
         }
       ],
       "commits": [
+        {
+          "sha": "2d01049b47497ab8ac71e2e3fc4abe347230e4fa",
+          "date": "2026-11-03T19:03:50Z"
+        },
+        {
+          "sha": "bb339e824814e4482af989e7af7b1c50d7b1040a",
+          "date": "2026-11-03T18:48:47Z"
+        },
         {
           "sha": "66abba2213aae4e39bdf66bf6e474e36c272521d",
           "date": "2026-10-30T07:44:23Z"
@@ -3230,13 +3506,13 @@
       ]
     },
     "forge-queue": {
-      "head": "c261574e72cc568ab11e7e3116640c3af419f86f",
+      "head": "49ac57c34089b79996d681d806a944fd71d93262",
       "branch": "main",
-      "total_commits": 6,
+      "total_commits": 8,
       "files": [
         {
           "path": ".github/workflows/ci.yml",
-          "size": 432
+          "size": 713
         },
         {
           "path": ".gitignore",
@@ -3244,7 +3520,7 @@
         },
         {
           "path": "Cargo.toml",
-          "size": 473
+          "size": 483
         },
         {
           "path": "LICENSE",
@@ -3256,19 +3532,27 @@
         },
         {
           "path": "README.md",
-          "size": 3357
+          "size": 4259
         },
         {
           "path": "run.bat",
-          "size": 131
+          "size": 152
         },
         {
           "path": "run.command",
-          "size": 154
+          "size": 162
         },
         {
           "path": "src/main.rs",
-          "size": 7916
+          "size": 10365
+        },
+        {
+          "path": "src/startup.rs",
+          "size": 1385
+        },
+        {
+          "path": "tests/diagnostics.py",
+          "size": 1231
         },
         {
           "path": "tests/smoke.py",
@@ -3292,6 +3576,14 @@
         }
       ],
       "commits": [
+        {
+          "sha": "49ac57c34089b79996d681d806a944fd71d93262",
+          "date": "2026-11-03T19:04:10Z"
+        },
+        {
+          "sha": "c4176839372a37d9a5f2f3459ec2ffe7b8951348",
+          "date": "2026-11-03T18:49:44Z"
+        },
         {
           "sha": "c261574e72cc568ab11e7e3116640c3af419f86f",
           "date": "2026-10-30T07:43:09Z"
@@ -3319,9 +3611,9 @@
       ]
     },
     "den9911": {
-      "head": "330a9b3311bca141b2ead1290b12e935479f1ebc",
+      "head": "e3a80d5e7a20bc1bbea5fb4108b9b1b781a68269",
       "branch": "main",
-      "total_commits": 10,
+      "total_commits": 11,
       "files": [
         {
           "path": ".github/workflows/profile-visuals.yml",
@@ -3357,19 +3649,19 @@
         },
         {
           "path": "assets/profile/activity-en-dark.svg",
-          "size": 7009
+          "size": 7023
         },
         {
           "path": "assets/profile/activity-en-light.svg",
-          "size": 7009
+          "size": 7023
         },
         {
           "path": "assets/profile/activity-ru-dark.svg",
-          "size": 7179
+          "size": 7193
         },
         {
           "path": "assets/profile/activity-ru-light.svg",
-          "size": 7179
+          "size": 7193
         },
         {
           "path": "assets/profile/intro-en-dark.svg",
@@ -3465,7 +3757,7 @@
         },
         {
           "path": "docs/activity.json",
-          "size": 13503
+          "size": 14489
         },
         {
           "path": "docs/assets/DEVICON-LICENSE",
@@ -3781,7 +4073,7 @@
         },
         {
           "path": "profile/data.json",
-          "size": 88530
+          "size": 90475
         },
         {
           "path": "profile/refresh.py",
@@ -3801,6 +4093,10 @@
         }
       ],
       "commits": [
+        {
+          "sha": "e3a80d5e7a20bc1bbea5fb4108b9b1b781a68269",
+          "date": "2026-11-03T07:00:05Z"
+        },
         {
           "sha": "330a9b3311bca141b2ead1290b12e935479f1ebc",
           "date": "2026-11-03T01:16:42Z"
