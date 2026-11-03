@@ -15,3 +15,9 @@ To host with GitHub Pages, configure this repository’s Pages source to **Deplo
 `experiments/motion-playground/` is the independent tenth application. Its own README explains how to serve its `public/` directory at a domain root.
 
 Technology logos come from [Devicon](https://github.com/devicons/devicon); the license is retained in `assets/DEVICON-LICENSE` and `docs/assets/DEVICON-LICENSE`. The visual reference was the organization of [d9911’s profile](https://github.com/d9911), not its biography or contact details.
+
+## Social preview and printing
+
+The static page includes Open Graph and Twitter metadata with a locally stored 1200×630 PNG, generated from the accompanying editable SVG. The default social preview is English; changing the page language in the browser does not change crawler metadata. Local metadata and image dimensions were checked; external social crawlers were not tested and can cache older previews.
+
+Use the browser's Print command for a light, readable layout with external links and the activity timestamp. Controls and decorative previews are hidden; charts and content remain visible. English and Russian PDFs were checked in Chromium. Safari and physical printers were not tested.
