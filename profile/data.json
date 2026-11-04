@@ -1,7 +1,7 @@
 {
   "schema": 2,
   "as_of": "2026-11-04",
-  "updated_at": "2026-11-04T06:42:50+00:00",
+  "updated_at": "2026-11-04T19:54:13+00:00",
   "window_days": 90,
   "repositories": {
     "caption-club": {
@@ -3405,13 +3405,13 @@
       ]
     },
     "pocket-index": {
-      "head": "2d01049b47497ab8ac71e2e3fc4abe347230e4fa",
+      "head": "5d144998748944ac42f7a07af70519bf9a747f92",
       "branch": "main",
-      "total_commits": 6,
+      "total_commits": 8,
       "files": [
         {
           "path": ".github/workflows/ci.yml",
-          "size": 713
+          "size": 858
         },
         {
           "path": ".gitignore",
@@ -3427,11 +3427,11 @@
         },
         {
           "path": "PROJECT.md",
-          "size": 797
+          "size": 2523
         },
         {
           "path": "README.md",
-          "size": 3768
+          "size": 6526
         },
         {
           "path": "run.bat",
@@ -3442,20 +3442,28 @@
           "size": 162
         },
         {
+          "path": "src/indexer.rs",
+          "size": 17459
+        },
+        {
           "path": "src/main.rs",
-          "size": 7242
+          "size": 7607
         },
         {
           "path": "src/query.rs",
-          "size": 1106
+          "size": 1511
         },
         {
           "path": "src/startup.rs",
-          "size": 1385
+          "size": 1693
         },
         {
           "path": "tests/diagnostics.py",
           "size": 1245
+        },
+        {
+          "path": "tests/retained_index.py",
+          "size": 6302
         },
         {
           "path": "tests/smoke.py",
@@ -3463,7 +3471,7 @@
         },
         {
           "path": "web/app.js",
-          "size": 7173
+          "size": 11175
         },
         {
           "path": "web/cover.svg",
@@ -3471,14 +3479,22 @@
         },
         {
           "path": "web/index.html",
-          "size": 2622
+          "size": 2708
         },
         {
           "path": "web/style.css",
-          "size": 4522
+          "size": 4729
         }
       ],
       "commits": [
+        {
+          "sha": "5d144998748944ac42f7a07af70519bf9a747f92",
+          "date": "2026-11-04T09:44:36Z"
+        },
+        {
+          "sha": "1b8605bcb0a7b8ec7a715bfd7b1e7f7bf23bd3da",
+          "date": "2026-11-04T09:38:33Z"
+        },
         {
           "sha": "2d01049b47497ab8ac71e2e3fc4abe347230e4fa",
           "date": "2026-11-03T19:03:50Z"
@@ -3611,9 +3627,9 @@
       ]
     },
     "den9911": {
-      "head": "6d5376c059036a3d720352efa72c940a7bf405ed",
+      "head": "4c4780ae3ee5706a1786849e3a5f012fa81bc3fe",
       "branch": "main",
-      "total_commits": 12,
+      "total_commits": 13,
       "files": [
         {
           "path": ".github/workflows/profile-visuals.yml",
@@ -3649,19 +3665,19 @@
         },
         {
           "path": "assets/profile/activity-en-dark.svg",
-          "size": 6987
+          "size": 7144
         },
         {
           "path": "assets/profile/activity-en-light.svg",
-          "size": 6987
+          "size": 7144
         },
         {
           "path": "assets/profile/activity-ru-dark.svg",
-          "size": 7157
+          "size": 7314
         },
         {
           "path": "assets/profile/activity-ru-light.svg",
-          "size": 7157
+          "size": 7314
         },
         {
           "path": "assets/profile/intro-en-dark.svg",
@@ -3757,7 +3773,7 @@
         },
         {
           "path": "docs/activity.json",
-          "size": 17812
+          "size": 17935
         },
         {
           "path": "docs/assets/DEVICON-LICENSE",
@@ -4073,7 +4089,7 @@
         },
         {
           "path": "profile/data.json",
-          "size": 97887
+          "size": 98010
         },
         {
           "path": "profile/refresh.py",
@@ -4093,6 +4109,10 @@
         }
       ],
       "commits": [
+        {
+          "sha": "4c4780ae3ee5706a1786849e3a5f012fa81bc3fe",
+          "date": "2026-11-04T06:43:18Z"
+        },
         {
           "sha": "6d5376c059036a3d720352efa72c940a7bf405ed",
           "date": "2026-11-03T19:38:31Z"
