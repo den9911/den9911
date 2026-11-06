@@ -1,7 +1,7 @@
 {
   "schema": 2,
-  "as_of": "2026-11-05",
-  "updated_at": "2026-11-05T20:07:04+00:00",
+  "as_of": "2026-11-06",
+  "updated_at": "2026-11-06T07:00:56+00:00",
   "window_days": 90,
   "repositories": {
     "caption-club": {
@@ -3211,13 +3211,13 @@
       ]
     },
     "traceboard": {
-      "head": "4694cf6d4e858dfc6943b99444b85ae6df6db761",
+      "head": "d8324df0e272e9536906df9d14ac7b12a396fa26",
       "branch": "main",
-      "total_commits": 6,
+      "total_commits": 10,
       "files": [
         {
           "path": ".github/workflows/ci.yml",
-          "size": 709
+          "size": 924
         },
         {
           "path": ".gitignore",
@@ -3225,7 +3225,7 @@
         },
         {
           "path": "Cargo.toml",
-          "size": 489
+          "size": 503
         },
         {
           "path": "LICENSE",
@@ -3233,11 +3233,11 @@
         },
         {
           "path": "PROJECT.md",
-          "size": 811
+          "size": 4212
         },
         {
           "path": "README.md",
-          "size": 5624
+          "size": 8319
         },
         {
           "path": "run.bat",
@@ -3249,11 +3249,19 @@
         },
         {
           "path": "src/main.rs",
-          "size": 14569
+          "size": 16877
+        },
+        {
+          "path": "src/outbox.rs",
+          "size": 15081
         },
         {
           "path": "src/startup.rs",
-          "size": 1385
+          "size": 1693
+        },
+        {
+          "path": "src/telegram.rs",
+          "size": 7748
         },
         {
           "path": "targets.example.json",
@@ -3268,8 +3276,12 @@
           "size": 1962
         },
         {
+          "path": "tests/outbox.py",
+          "size": 6960
+        },
+        {
           "path": "web/app.js",
-          "size": 5501
+          "size": 11127
         },
         {
           "path": "web/cover.svg",
@@ -3277,14 +3289,30 @@
         },
         {
           "path": "web/index.html",
-          "size": 1569
+          "size": 2353
         },
         {
           "path": "web/style.css",
-          "size": 3722
+          "size": 5027
         }
       ],
       "commits": [
+        {
+          "sha": "d8324df0e272e9536906df9d14ac7b12a396fa26",
+          "date": "2026-11-06T01:33:25Z"
+        },
+        {
+          "sha": "f995735b34625fb7e7d2ee917e2dd658731397b5",
+          "date": "2026-11-06T01:30:13Z"
+        },
+        {
+          "sha": "8d8592139b4771ac3fb668994fc6b662107d91a7",
+          "date": "2026-11-06T01:26:07Z"
+        },
+        {
+          "sha": "bee99666303e35dcb588ef4960cec9a15bd6df07",
+          "date": "2026-11-06T01:21:13Z"
+        },
         {
           "sha": "4694cf6d4e858dfc6943b99444b85ae6df6db761",
           "date": "2026-11-03T19:03:35Z"
@@ -3312,13 +3340,13 @@
       ]
     },
     "relay-room": {
-      "head": "42e15a9341eae1416853dbeb1d86d37d1b365fff",
+      "head": "ffc67c91689c5572c355ba9ec0eff4ac921ae98c",
       "branch": "main",
-      "total_commits": 10,
+      "total_commits": 14,
       "files": [
         {
           "path": ".github/workflows/ci.yml",
-          "size": 890
+          "size": 1044
         },
         {
           "path": ".gitignore",
@@ -3334,7 +3362,7 @@
         },
         {
           "path": "PROJECT.md",
-          "size": 3634
+          "size": 4872
         },
         {
           "path": "README.md",
@@ -3350,7 +3378,7 @@
         },
         {
           "path": "src/main.rs",
-          "size": 6481
+          "size": 6632
         },
         {
           "path": "src/model.rs",
@@ -3358,7 +3386,7 @@
         },
         {
           "path": "src/room.rs",
-          "size": 14898
+          "size": 14890
         },
         {
           "path": "src/startup.rs",
@@ -3366,7 +3394,7 @@
         },
         {
           "path": "src/storage.rs",
-          "size": 7627
+          "size": 9507
         },
         {
           "path": "tests/diagnostics.py",
@@ -3374,7 +3402,11 @@
         },
         {
           "path": "tests/quality.py",
-          "size": 6972
+          "size": 7326
+        },
+        {
+          "path": "tests/resilience.py",
+          "size": 6244
         },
         {
           "path": "tests/restore.py",
@@ -3398,6 +3430,22 @@
         }
       ],
       "commits": [
+        {
+          "sha": "ffc67c91689c5572c355ba9ec0eff4ac921ae98c",
+          "date": "2026-11-06T01:13:18Z"
+        },
+        {
+          "sha": "1c1dc797566ce27bf36c4db0aac4201c7fcba279",
+          "date": "2026-11-06T01:12:03Z"
+        },
+        {
+          "sha": "ef6793f6123a9ce4301fbfc4cb7599810ff1f805",
+          "date": "2026-11-06T01:10:51Z"
+        },
+        {
+          "sha": "82c85231fdc6c9590cc8b6492ed2de8b5907ef15",
+          "date": "2026-11-06T01:07:52Z"
+        },
         {
           "sha": "42e15a9341eae1416853dbeb1d86d37d1b365fff",
           "date": "2026-11-05T00:15:16Z"
@@ -3663,9 +3711,9 @@
       ]
     },
     "den9911": {
-      "head": "441c6126df132b11a9f3fcb37f533651bc41e4c1",
+      "head": "6ace683c0eb5c9eb7009b4facca81bdf76abf672",
       "branch": "main",
-      "total_commits": 15,
+      "total_commits": 16,
       "files": [
         {
           "path": ".github/workflows/profile-visuals.yml",
@@ -3701,19 +3749,19 @@
         },
         {
           "path": "assets/profile/activity-en-dark.svg",
-          "size": 7203
+          "size": 7204
         },
         {
           "path": "assets/profile/activity-en-light.svg",
-          "size": 7203
+          "size": 7204
         },
         {
           "path": "assets/profile/activity-ru-dark.svg",
-          "size": 7373
+          "size": 7374
         },
         {
           "path": "assets/profile/activity-ru-light.svg",
-          "size": 7373
+          "size": 7374
         },
         {
           "path": "assets/profile/intro-en-dark.svg",
@@ -3809,7 +3857,7 @@
         },
         {
           "path": "docs/activity.json",
-          "size": 19043
+          "size": 19166
         },
         {
           "path": "docs/assets/DEVICON-LICENSE",
@@ -4125,7 +4173,7 @@
         },
         {
           "path": "profile/data.json",
-          "size": 99609
+          "size": 99732
         },
         {
           "path": "profile/refresh.py",
@@ -4145,6 +4193,10 @@
         }
       ],
       "commits": [
+        {
+          "sha": "6ace683c0eb5c9eb7009b4facca81bdf76abf672",
+          "date": "2026-11-05T20:07:36Z"
+        },
         {
           "sha": "441c6126df132b11a9f3fcb37f533651bc41e4c1",
           "date": "2026-11-05T07:02:35Z"
