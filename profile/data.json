@@ -1,7 +1,7 @@
 {
   "schema": 2,
   "as_of": "2026-11-07",
-  "updated_at": "2026-11-07T13:18:52+00:00",
+  "updated_at": "2026-11-07T22:01:40+00:00",
   "window_days": 90,
   "repositories": {
     "caption-club": {
@@ -3122,13 +3122,13 @@
       ]
     },
     "gather-bot": {
-      "head": "2a8d29345fb467a415201be6c9bbf904e826de98",
+      "head": "459c40662763dbc52a32cd83a0a5b30f6445648a",
       "branch": "main",
-      "total_commits": 7,
+      "total_commits": 9,
       "files": [
         {
           "path": ".github/workflows/ci.yml",
-          "size": 595
+          "size": 671
         },
         {
           "path": ".gitignore",
@@ -3136,7 +3136,7 @@
         },
         {
           "path": "Cargo.toml",
-          "size": 339
+          "size": 388
         },
         {
           "path": "LICENSE",
@@ -3144,7 +3144,7 @@
         },
         {
           "path": "README.md",
-          "size": 5114
+          "size": 7691
         },
         {
           "path": "assets/cover.svg",
@@ -3152,7 +3152,7 @@
         },
         {
           "path": "docs/implementation-design.md",
-          "size": 1130
+          "size": 3384
         },
         {
           "path": "run.bat",
@@ -3164,15 +3164,23 @@
         },
         {
           "path": "src/calendar.rs",
-          "size": 1773
+          "size": 2277
+        },
+        {
+          "path": "src/commands.rs",
+          "size": 23022
         },
         {
           "path": "src/main.rs",
-          "size": 18002
+          "size": 12672
+        },
+        {
+          "path": "src/replies.rs",
+          "size": 2636
         },
         {
           "path": "src/startup.rs",
-          "size": 1385
+          "size": 1693
         },
         {
           "path": "tests/diagnostics.py",
@@ -3180,6 +3188,14 @@
         }
       ],
       "commits": [
+        {
+          "sha": "459c40662763dbc52a32cd83a0a5b30f6445648a",
+          "date": "2026-11-07T18:04:35Z"
+        },
+        {
+          "sha": "0cc9dbfa28617b33cb4431b47af7866eb358fe5d",
+          "date": "2026-11-07T18:00:12Z"
+        },
         {
           "sha": "2a8d29345fb467a415201be6c9bbf904e826de98",
           "date": "2026-11-03T19:03:11Z"
@@ -3211,13 +3227,13 @@
       ]
     },
     "traceboard": {
-      "head": "d8324df0e272e9536906df9d14ac7b12a396fa26",
+      "head": "d6f64b0a0fd330040611fd063788bbfedd1bdbff",
       "branch": "main",
-      "total_commits": 10,
+      "total_commits": 14,
       "files": [
         {
           "path": ".github/workflows/ci.yml",
-          "size": 924
+          "size": 1067
         },
         {
           "path": ".gitignore",
@@ -3233,27 +3249,27 @@
         },
         {
           "path": "PROJECT.md",
-          "size": 4212
+          "size": 5226
         },
         {
           "path": "README.md",
-          "size": 8319
+          "size": 9253
         },
         {
           "path": "run.bat",
-          "size": 253
+          "size": 222
         },
         {
           "path": "run.command",
-          "size": 262
+          "size": 222
         },
         {
           "path": "src/main.rs",
-          "size": 16877
+          "size": 17139
         },
         {
           "path": "src/outbox.rs",
-          "size": 15081
+          "size": 16519
         },
         {
           "path": "src/startup.rs",
@@ -3280,8 +3296,12 @@
           "size": 6960
         },
         {
+          "path": "tests/outbox_recovery.py",
+          "size": 7908
+        },
+        {
           "path": "web/app.js",
-          "size": 11127
+          "size": 12552
         },
         {
           "path": "web/cover.svg",
@@ -3289,14 +3309,30 @@
         },
         {
           "path": "web/index.html",
-          "size": 2353
+          "size": 2382
         },
         {
           "path": "web/style.css",
-          "size": 5027
+          "size": 5119
         }
       ],
       "commits": [
+        {
+          "sha": "d6f64b0a0fd330040611fd063788bbfedd1bdbff",
+          "date": "2026-11-07T18:12:04Z"
+        },
+        {
+          "sha": "d6dadf183992fbabf79e3058f9c932ba948b1574",
+          "date": "2026-11-07T17:49:00Z"
+        },
+        {
+          "sha": "c2721ab256e9fb82a25dff5697970c3df184da88",
+          "date": "2026-11-07T17:45:59Z"
+        },
+        {
+          "sha": "4bb84c105b20ce55a81bdece7fc5abe90cd31d32",
+          "date": "2026-11-07T17:41:11Z"
+        },
         {
           "sha": "d8324df0e272e9536906df9d14ac7b12a396fa26",
           "date": "2026-11-06T01:33:25Z"
@@ -3711,9 +3747,9 @@
       ]
     },
     "den9911": {
-      "head": "f55c93dcd3d470dc210b8917148160f5e45b9962",
+      "head": "f6c5d30255fe23d1a9f53de468fadb216a7bfd3a",
       "branch": "main",
-      "total_commits": 19,
+      "total_commits": 20,
       "files": [
         {
           "path": ".github/workflows/profile-visuals.yml",
@@ -3749,19 +3785,19 @@
         },
         {
           "path": "assets/profile/activity-en-dark.svg",
-          "size": 7208
+          "size": 7237
         },
         {
           "path": "assets/profile/activity-en-light.svg",
-          "size": 7208
+          "size": 7237
         },
         {
           "path": "assets/profile/activity-ru-dark.svg",
-          "size": 7378
+          "size": 7407
         },
         {
           "path": "assets/profile/activity-ru-light.svg",
-          "size": 7378
+          "size": 7407
         },
         {
           "path": "assets/profile/intro-en-dark.svg",
@@ -3857,7 +3893,7 @@
         },
         {
           "path": "docs/activity.json",
-          "size": 20520
+          "size": 20643
         },
         {
           "path": "docs/assets/DEVICON-LICENSE",
@@ -4173,7 +4209,7 @@
         },
         {
           "path": "profile/data.json",
-          "size": 101417
+          "size": 101540
         },
         {
           "path": "profile/refresh.py",
@@ -4193,6 +4229,10 @@
         }
       ],
       "commits": [
+        {
+          "sha": "f6c5d30255fe23d1a9f53de468fadb216a7bfd3a",
+          "date": "2026-11-07T13:19:21Z"
+        },
         {
           "sha": "f55c93dcd3d470dc210b8917148160f5e45b9962",
           "date": "2026-11-07T06:14:59Z"
