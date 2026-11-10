@@ -1,7 +1,7 @@
 {
   "schema": 2,
   "as_of": "2026-11-10",
-  "updated_at": "2026-11-10T07:30:10+00:00",
+  "updated_at": "2026-11-10T19:52:21+00:00",
   "window_days": 90,
   "repositories": {
     "caption-club": {
@@ -394,9 +394,9 @@
       ]
     },
     "majority-vote": {
-      "head": "fa600478c4d3d3a6af529a6bc68d661090d8e2c1",
+      "head": "4380830a531bad0ba5e5ac9ba14f7c456ddfe19e",
       "branch": "main",
-      "total_commits": 10,
+      "total_commits": 11,
       "files": [
         {
           "path": ".dockerignore",
@@ -424,15 +424,15 @@
         },
         {
           "path": "OPERATIONS.md",
-          "size": 10311
+          "size": 11345
         },
         {
           "path": "README.md",
-          "size": 4684
+          "size": 4846
         },
         {
           "path": "README.ru.md",
-          "size": 6632
+          "size": 6950
         },
         {
           "path": "TYPESCRIPT.md",
@@ -448,7 +448,7 @@
         },
         {
           "path": "i18n/catalog.tsv",
-          "size": 45951
+          "size": 46234
         },
         {
           "path": "index.html",
@@ -520,7 +520,7 @@
         },
         {
           "path": "public/locales/en/majority/app.js",
-          "size": 5627
+          "size": 6218
         },
         {
           "path": "public/locales/en/pages/about/index.html",
@@ -568,7 +568,7 @@
         },
         {
           "path": "public/locales/ru/majority/app.js",
-          "size": 6389
+          "size": 7087
         },
         {
           "path": "public/locales/ru/pages/about/index.html",
@@ -612,7 +612,7 @@
         },
         {
           "path": "public/majority/app.js",
-          "size": 6367
+          "size": 7065
         },
         {
           "path": "public/majority/index.html",
@@ -676,7 +676,7 @@
         },
         {
           "path": "server/index.mjs",
-          "size": 25293
+          "size": 25341
         },
         {
           "path": "server/majority-catalog.mjs",
@@ -727,6 +727,14 @@
           "size": 3862
         },
         {
+          "path": "tests/fixtures/majority-process.mjs",
+          "size": 559
+        },
+        {
+          "path": "tests/majority-recovery.test.mjs",
+          "size": 6282
+        },
+        {
           "path": "tests/majority.test.mjs",
           "size": 9763
         },
@@ -752,6 +760,10 @@
         }
       ],
       "commits": [
+        {
+          "sha": "4380830a531bad0ba5e5ac9ba14f7c456ddfe19e",
+          "date": "2026-11-10T11:36:42Z"
+        },
         {
           "sha": "fa600478c4d3d3a6af529a6bc68d661090d8e2c1",
           "date": "2026-11-09T14:11:30Z"
@@ -795,9 +807,9 @@
       ]
     },
     "meme-arena": {
-      "head": "e72b209fae304661f41765732c014efddeb4a35a",
+      "head": "4cfd8ef7c2f5b0c1f32f9af1cd17f71f7bbeb778",
       "branch": "main",
-      "total_commits": 9,
+      "total_commits": 11,
       "files": [
         {
           "path": ".dockerignore",
@@ -825,15 +837,15 @@
         },
         {
           "path": "OPERATIONS.md",
-          "size": 7512
+          "size": 10708
         },
         {
           "path": "README.md",
-          "size": 4983
+          "size": 5286
         },
         {
           "path": "README.ru.md",
-          "size": 6793
+          "size": 7356
         },
         {
           "path": "TYPESCRIPT.md",
@@ -849,7 +861,7 @@
         },
         {
           "path": "i18n/catalog.tsv",
-          "size": 41166
+          "size": 42199
         },
         {
           "path": "index.html",
@@ -913,7 +925,7 @@
         },
         {
           "path": "public/arena/app.js",
-          "size": 1790
+          "size": 3061
         },
         {
           "path": "public/arena/index.html",
@@ -929,7 +941,7 @@
         },
         {
           "path": "public/locales/en/arena/app.js",
-          "size": 1513
+          "size": 2691
         },
         {
           "path": "public/locales/en/pages/about/index.html",
@@ -949,11 +961,15 @@
         },
         {
           "path": "public/locales/en/shared/editorial.js",
-          "size": 11836
+          "size": 12358
         },
         {
           "path": "public/locales/en/shared/main.js",
           "size": 3357
+        },
+        {
+          "path": "public/locales/en/shared/media-state.js",
+          "size": 2352
         },
         {
           "path": "public/locales/en/shared/project.js",
@@ -965,7 +981,7 @@
         },
         {
           "path": "public/locales/en/shared/ui.js",
-          "size": 8586
+          "size": 8609
         },
         {
           "path": "public/locales/ru/admin/app.js",
@@ -973,7 +989,7 @@
         },
         {
           "path": "public/locales/ru/arena/app.js",
-          "size": 1801
+          "size": 3083
         },
         {
           "path": "public/locales/ru/pages/about/index.html",
@@ -993,11 +1009,15 @@
         },
         {
           "path": "public/locales/ru/shared/editorial.js",
-          "size": 14483
+          "size": 15062
         },
         {
           "path": "public/locales/ru/shared/main.js",
           "size": 3836
+        },
+        {
+          "path": "public/locales/ru/shared/media-state.js",
+          "size": 2559
         },
         {
           "path": "public/locales/ru/shared/project.js",
@@ -1009,7 +1029,7 @@
         },
         {
           "path": "public/locales/ru/shared/ui.js",
-          "size": 9595
+          "size": 9618
         },
         {
           "path": "public/shared/boot.js",
@@ -1017,7 +1037,7 @@
         },
         {
           "path": "public/shared/editorial.js",
-          "size": 14483
+          "size": 15062
         },
         {
           "path": "public/shared/favicon.svg",
@@ -1026,6 +1046,10 @@
         {
           "path": "public/shared/main.js",
           "size": 3803
+        },
+        {
+          "path": "public/shared/media-state.js",
+          "size": 2559
         },
         {
           "path": "public/shared/preferences-model.js",
@@ -1049,7 +1073,7 @@
         },
         {
           "path": "public/shared/style.css",
-          "size": 14904
+          "size": 15111
         },
         {
           "path": "public/shared/themes.css",
@@ -1057,7 +1081,7 @@
         },
         {
           "path": "public/shared/ui.js",
-          "size": 9595
+          "size": 9618
         },
         {
           "path": "server/content.mjs",
@@ -1065,7 +1089,11 @@
         },
         {
           "path": "server/index.mjs",
-          "size": 25745
+          "size": 26890
+        },
+        {
+          "path": "server/media.mjs",
+          "size": 1213
         },
         {
           "path": "server/project.mjs",
@@ -1077,7 +1105,7 @@
         },
         {
           "path": "server/store.mjs",
-          "size": 3001
+          "size": 3435
         },
         {
           "path": "server/validation.mjs",
@@ -1085,7 +1113,7 @@
         },
         {
           "path": "src/contracts.ts",
-          "size": 867
+          "size": 1017
         },
         {
           "path": "src/preferences-model.ts",
@@ -1102,6 +1130,10 @@
         {
           "path": "tests/alt.test.mjs",
           "size": 2560
+        },
+        {
+          "path": "tests/media.test.mjs",
+          "size": 8369
         },
         {
           "path": "tests/preferences.test.mjs",
@@ -1125,6 +1157,14 @@
         }
       ],
       "commits": [
+        {
+          "sha": "4cfd8ef7c2f5b0c1f32f9af1cd17f71f7bbeb778",
+          "date": "2026-11-10T11:48:28Z"
+        },
+        {
+          "sha": "6a533ac86dc7d15e658ca0d9f8dfd07a37df2978",
+          "date": "2026-11-10T11:46:58Z"
+        },
         {
           "sha": "e72b209fae304661f41765732c014efddeb4a35a",
           "date": "2026-11-03T19:11:10Z"
@@ -3799,9 +3839,9 @@
       ]
     },
     "den9911": {
-      "head": "83ffb4fc0d7ccd886013b41c7d9b8644fd8ee29a",
+      "head": "79ca40f3847a414288fea8f55f9406d4d29aaaea",
       "branch": "main",
-      "total_commits": 26,
+      "total_commits": 27,
       "files": [
         {
           "path": ".github/workflows/profile-visuals.yml",
@@ -3837,19 +3877,19 @@
         },
         {
           "path": "assets/profile/activity-en-dark.svg",
-          "size": 7290
+          "size": 7289
         },
         {
           "path": "assets/profile/activity-en-light.svg",
-          "size": 7290
+          "size": 7289
         },
         {
           "path": "assets/profile/activity-ru-dark.svg",
-          "size": 7460
+          "size": 7459
         },
         {
           "path": "assets/profile/activity-ru-light.svg",
-          "size": 7460
+          "size": 7459
         },
         {
           "path": "assets/profile/intro-en-dark.svg",
@@ -3945,7 +3985,7 @@
         },
         {
           "path": "docs/activity.json",
-          "size": 22490
+          "size": 22613
         },
         {
           "path": "docs/assets/DEVICON-LICENSE",
@@ -4261,7 +4301,7 @@
         },
         {
           "path": "profile/data.json",
-          "size": 104589
+          "size": 104712
         },
         {
           "path": "profile/refresh.py",
@@ -4281,6 +4321,10 @@
         }
       ],
       "commits": [
+        {
+          "sha": "79ca40f3847a414288fea8f55f9406d4d29aaaea",
+          "date": "2026-11-10T07:30:45Z"
+        },
         {
           "sha": "83ffb4fc0d7ccd886013b41c7d9b8644fd8ee29a",
           "date": "2026-11-09T22:32:44Z"
