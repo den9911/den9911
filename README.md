@@ -51,8 +51,8 @@ See how I put these skills into practice: applications, screenshots, and source 
 ## Public code activity
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/profile/activity-en-dark.svg?v=202611110647150000">
-  <img src="assets/profile/activity-en-light.svg?v=202611110647150000" width="1080" alt="Source composition, all-time totals and 30-day commit activity across 15 public repositories; the update time is shown on the chart.">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile/activity-en-dark.svg?v=202611111943520000">
+  <img src="assets/profile/activity-en-light.svg?v=202611111943520000" width="1080" alt="Source composition, all-time totals and 30-day commit activity across 15 public repositories; the update time is shown on the chart.">
 </picture>
 
 Public default-branch history across 15 repositories, including Rust apps and this profile. Refresh scheduled every six hours; update time appears on the chart. Repository totals include automation and are not personal contribution counts. [Interactive statistics →](https://den9911.github.io/den9911/docs/#activity) [Methodology and updates](profile/README.md).

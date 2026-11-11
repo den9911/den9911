@@ -1,7 +1,7 @@
 {
   "schema": 2,
   "as_of": "2026-11-11",
-  "updated_at": "2026-11-11T06:47:15+00:00",
+  "updated_at": "2026-11-11T19:43:52+00:00",
   "window_days": 90,
   "repositories": {
     "caption-club": {
@@ -807,9 +807,9 @@
       ]
     },
     "meme-arena": {
-      "head": "4cfd8ef7c2f5b0c1f32f9af1cd17f71f7bbeb778",
+      "head": "7cfff139f924c8f3db539dd871f605256ad0c7a3",
       "branch": "main",
-      "total_commits": 11,
+      "total_commits": 12,
       "files": [
         {
           "path": ".dockerignore",
@@ -837,7 +837,7 @@
         },
         {
           "path": "OPERATIONS.md",
-          "size": 10708
+          "size": 11065
         },
         {
           "path": "README.md",
@@ -1132,6 +1132,14 @@
           "size": 2560
         },
         {
+          "path": "tests/arena-recovery.test.mjs",
+          "size": 6168
+        },
+        {
+          "path": "tests/fixtures/arena-process.mjs",
+          "size": 556
+        },
+        {
           "path": "tests/media.test.mjs",
           "size": 8369
         },
@@ -1157,6 +1165,10 @@
         }
       ],
       "commits": [
+        {
+          "sha": "7cfff139f924c8f3db539dd871f605256ad0c7a3",
+          "date": "2026-11-11T10:46:09Z"
+        },
         {
           "sha": "4cfd8ef7c2f5b0c1f32f9af1cd17f71f7bbeb778",
           "date": "2026-11-10T11:48:28Z"
@@ -2540,9 +2552,9 @@
       ]
     },
     "daily-minute": {
-      "head": "1328303c2c52ef4080a5ac379ee0736fbed0eaa4",
+      "head": "22d2bd2b87553c8066688d931ce453288c69b77a",
       "branch": "main",
-      "total_commits": 9,
+      "total_commits": 10,
       "files": [
         {
           "path": ".dockerignore",
@@ -2570,7 +2582,7 @@
         },
         {
           "path": "OPERATIONS.md",
-          "size": 7512
+          "size": 7907
         },
         {
           "path": "README.md",
@@ -2794,11 +2806,15 @@
         },
         {
           "path": "server/index.mjs",
-          "size": 25242
+          "size": 25387
         },
         {
           "path": "server/project.mjs",
           "size": 36
+        },
+        {
+          "path": "server/puzzle-snapshots.mjs",
+          "size": 1625
         },
         {
           "path": "server/startup.mjs",
@@ -2817,6 +2833,10 @@
           "size": 5245
         },
         {
+          "path": "tests/puzzle-snapshots.test.mjs",
+          "size": 1325
+        },
+        {
           "path": "tests/server.test.mjs",
           "size": 17574
         },
@@ -2830,6 +2850,10 @@
         }
       ],
       "commits": [
+        {
+          "sha": "22d2bd2b87553c8066688d931ce453288c69b77a",
+          "date": "2026-11-11T10:46:46Z"
+        },
         {
           "sha": "1328303c2c52ef4080a5ac379ee0736fbed0eaa4",
           "date": "2026-11-03T19:27:33Z"
@@ -3839,9 +3863,9 @@
       ]
     },
     "den9911": {
-      "head": "2644c021e0ce851bbbe98cf8e1ea74489527f8bb",
+      "head": "bbff804bcd47b3e6d0de5f3bcf1a7c1edb117fa8",
       "branch": "main",
-      "total_commits": 28,
+      "total_commits": 29,
       "files": [
         {
           "path": ".github/workflows/profile-visuals.yml",
@@ -3877,19 +3901,19 @@
         },
         {
           "path": "assets/profile/activity-en-dark.svg",
-          "size": 7326
+          "size": 7325
         },
         {
           "path": "assets/profile/activity-en-light.svg",
-          "size": 7326
+          "size": 7325
         },
         {
           "path": "assets/profile/activity-ru-dark.svg",
-          "size": 7496
+          "size": 7495
         },
         {
           "path": "assets/profile/activity-ru-light.svg",
-          "size": 7496
+          "size": 7495
         },
         {
           "path": "assets/profile/intro-en-dark.svg",
@@ -3985,7 +4009,7 @@
         },
         {
           "path": "docs/activity.json",
-          "size": 23106
+          "size": 23229
         },
         {
           "path": "docs/assets/DEVICON-LICENSE",
@@ -4301,7 +4325,7 @@
         },
         {
           "path": "profile/data.json",
-          "size": 105877
+          "size": 106000
         },
         {
           "path": "profile/refresh.py",
@@ -4321,6 +4345,10 @@
         }
       ],
       "commits": [
+        {
+          "sha": "bbff804bcd47b3e6d0de5f3bcf1a7c1edb117fa8",
+          "date": "2026-11-11T06:47:46Z"
+        },
         {
           "sha": "2644c021e0ce851bbbe98cf8e1ea74489527f8bb",
           "date": "2026-11-10T19:53:00Z"
