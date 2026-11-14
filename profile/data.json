@@ -1,7 +1,7 @@
 {
   "schema": 2,
-  "as_of": "2026-11-13",
-  "updated_at": "2026-11-13T19:53:23+00:00",
+  "as_of": "2026-11-14",
+  "updated_at": "2026-11-14T06:44:55+00:00",
   "window_days": 90,
   "repositories": {
     "caption-club": {
@@ -1854,9 +1854,9 @@
       ]
     },
     "crowd-decides": {
-      "head": "a9e1a844ea98cd09d6ea0ae046ca3a9fad06a1ab",
+      "head": "1f68cc18aea5258a9a27d4ca74b7498a0ade84d9",
       "branch": "main",
-      "total_commits": 8,
+      "total_commits": 9,
       "files": [
         {
           "path": ".dockerignore",
@@ -1868,7 +1868,7 @@
         },
         {
           "path": ".github/workflows/verify.yml",
-          "size": 746
+          "size": 1076
         },
         {
           "path": ".gitignore",
@@ -1884,15 +1884,15 @@
         },
         {
           "path": "OPERATIONS.md",
-          "size": 7512
+          "size": 9125
         },
         {
           "path": "README.md",
-          "size": 3830
+          "size": 5443
         },
         {
           "path": "README.ru.md",
-          "size": 5292
+          "size": 6905
         },
         {
           "path": "assets/icon.svg",
@@ -2108,11 +2108,15 @@
         },
         {
           "path": "server/index.mjs",
-          "size": 26107
+          "size": 25859
         },
         {
           "path": "server/project.mjs",
           "size": 36
+        },
+        {
+          "path": "server/session-key.mjs",
+          "size": 1923
         },
         {
           "path": "server/startup.mjs",
@@ -2139,6 +2143,10 @@
           "size": 18048
         },
         {
+          "path": "tests/session-ownership.test.mjs",
+          "size": 4188
+        },
+        {
           "path": "tests/startup.test.mjs",
           "size": 1117
         },
@@ -2148,6 +2156,10 @@
         }
       ],
       "commits": [
+        {
+          "sha": "1f68cc18aea5258a9a27d4ca74b7498a0ade84d9",
+          "date": "2026-11-13T23:32:03Z"
+        },
         {
           "sha": "a9e1a844ea98cd09d6ea0ae046ca3a9fad06a1ab",
           "date": "2026-11-03T19:26:46Z"
@@ -3802,9 +3814,9 @@
       ]
     },
     "forge-queue": {
-      "head": "98c285a95d508dd37ace38251092e26d8239006b",
+      "head": "2fdd58910ad71e7bd0e5e735a1ba33a52ffac850",
       "branch": "main",
-      "total_commits": 10,
+      "total_commits": 11,
       "files": [
         {
           "path": ".github/workflows/ci.yml",
@@ -3824,11 +3836,11 @@
         },
         {
           "path": "PROJECT.md",
-          "size": 2375
+          "size": 3080
         },
         {
           "path": "README.md",
-          "size": 5774
+          "size": 6479
         },
         {
           "path": "run.bat",
@@ -3840,7 +3852,7 @@
         },
         {
           "path": "src/main.rs",
-          "size": 10736
+          "size": 11082
         },
         {
           "path": "src/startup.rs",
@@ -3856,11 +3868,11 @@
         },
         {
           "path": "tests/upload_recovery.py",
-          "size": 3935
+          "size": 5373
         },
         {
           "path": "web/app.js",
-          "size": 7235
+          "size": 8075
         },
         {
           "path": "web/cover.svg",
@@ -3876,6 +3888,10 @@
         }
       ],
       "commits": [
+        {
+          "sha": "2fdd58910ad71e7bd0e5e735a1ba33a52ffac850",
+          "date": "2026-11-13T23:27:49Z"
+        },
         {
           "sha": "98c285a95d508dd37ace38251092e26d8239006b",
           "date": "2026-11-12T12:29:14Z"
@@ -3919,9 +3935,9 @@
       ]
     },
     "den9911": {
-      "head": "2aefc4eb6577769635a416a8a1c809edba98fdfb",
+      "head": "de98f50a0ab57a6030fa485c276b5f3062e51237",
       "branch": "main",
-      "total_commits": 33,
+      "total_commits": 34,
       "files": [
         {
           "path": ".github/workflows/profile-visuals.yml",
@@ -3957,19 +3973,19 @@
         },
         {
           "path": "assets/profile/activity-en-dark.svg",
-          "size": 7358
+          "size": 7387
         },
         {
           "path": "assets/profile/activity-en-light.svg",
-          "size": 7358
+          "size": 7387
         },
         {
           "path": "assets/profile/activity-ru-dark.svg",
-          "size": 7528
+          "size": 7557
         },
         {
           "path": "assets/profile/activity-ru-light.svg",
-          "size": 7528
+          "size": 7557
         },
         {
           "path": "assets/profile/intro-en-dark.svg",
@@ -4065,7 +4081,7 @@
         },
         {
           "path": "docs/activity.json",
-          "size": 24708
+          "size": 24831
         },
         {
           "path": "docs/assets/DEVICON-LICENSE",
@@ -4381,7 +4397,7 @@
         },
         {
           "path": "profile/data.json",
-          "size": 108605
+          "size": 108728
         },
         {
           "path": "profile/refresh.py",
@@ -4401,6 +4417,10 @@
         }
       ],
       "commits": [
+        {
+          "sha": "de98f50a0ab57a6030fa485c276b5f3062e51237",
+          "date": "2026-11-13T19:53:55Z"
+        },
         {
           "sha": "2aefc4eb6577769635a416a8a1c809edba98fdfb",
           "date": "2026-11-13T06:58:06Z"
