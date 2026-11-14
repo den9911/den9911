@@ -1,7 +1,7 @@
 {
   "schema": 2,
   "as_of": "2026-11-14",
-  "updated_at": "2026-11-14T18:18:59+00:00",
+  "updated_at": "2026-11-14T22:36:08+00:00",
   "window_days": 90,
   "repositories": {
     "caption-club": {
@@ -1854,9 +1854,9 @@
       ]
     },
     "crowd-decides": {
-      "head": "1f68cc18aea5258a9a27d4ca74b7498a0ade84d9",
+      "head": "d7062b78007ec958f3efce30fd11d01621518095",
       "branch": "main",
-      "total_commits": 9,
+      "total_commits": 10,
       "files": [
         {
           "path": ".dockerignore",
@@ -1868,7 +1868,7 @@
         },
         {
           "path": ".github/workflows/verify.yml",
-          "size": 1076
+          "size": 1132
         },
         {
           "path": ".gitignore",
@@ -1884,15 +1884,15 @@
         },
         {
           "path": "OPERATIONS.md",
-          "size": 9125
+          "size": 12177
         },
         {
           "path": "README.md",
-          "size": 5443
+          "size": 5715
         },
         {
           "path": "README.ru.md",
-          "size": 6905
+          "size": 7400
         },
         {
           "path": "assets/icon.svg",
@@ -1904,7 +1904,7 @@
         },
         {
           "path": "i18n/catalog.tsv",
-          "size": 40062
+          "size": 42058
         },
         {
           "path": "index.html",
@@ -1956,7 +1956,7 @@
         },
         {
           "path": "public/decide/app.js",
-          "size": 4638
+          "size": 6332
         },
         {
           "path": "public/decide/index.html",
@@ -1972,7 +1972,7 @@
         },
         {
           "path": "public/locales/en/decide/app.js",
-          "size": 4020
+          "size": 5086
         },
         {
           "path": "public/locales/en/pages/about/index.html",
@@ -1992,7 +1992,7 @@
         },
         {
           "path": "public/locales/en/shared/editorial.js",
-          "size": 11151
+          "size": 11535
         },
         {
           "path": "public/locales/en/shared/main.js",
@@ -2008,7 +2008,7 @@
         },
         {
           "path": "public/locales/en/shared/ui.js",
-          "size": 8351
+          "size": 8416
         },
         {
           "path": "public/locales/ru/admin/app.js",
@@ -2016,7 +2016,7 @@
         },
         {
           "path": "public/locales/ru/decide/app.js",
-          "size": 4649
+          "size": 6343
         },
         {
           "path": "public/locales/ru/pages/about/index.html",
@@ -2036,7 +2036,7 @@
         },
         {
           "path": "public/locales/ru/shared/editorial.js",
-          "size": 13359
+          "size": 13792
         },
         {
           "path": "public/locales/ru/shared/main.js",
@@ -2052,7 +2052,7 @@
         },
         {
           "path": "public/locales/ru/shared/ui.js",
-          "size": 9291
+          "size": 9356
         },
         {
           "path": "public/shared/boot.js",
@@ -2060,7 +2060,7 @@
         },
         {
           "path": "public/shared/editorial.js",
-          "size": 13359
+          "size": 13792
         },
         {
           "path": "public/shared/favicon.svg",
@@ -2100,7 +2100,7 @@
         },
         {
           "path": "public/shared/ui.js",
-          "size": 9291
+          "size": 9356
         },
         {
           "path": "server/content.mjs",
@@ -2108,7 +2108,7 @@
         },
         {
           "path": "server/index.mjs",
-          "size": 25859
+          "size": 26010
         },
         {
           "path": "server/project.mjs",
@@ -2116,11 +2116,11 @@
         },
         {
           "path": "server/session-key.mjs",
-          "size": 1923
+          "size": 2714
         },
         {
           "path": "server/startup.mjs",
-          "size": 2573
+          "size": 2688
         },
         {
           "path": "server/store.mjs",
@@ -2129,6 +2129,14 @@
         {
           "path": "server/validation.mjs",
           "size": 3639
+        },
+        {
+          "path": "tests/helpers/session-process.mjs",
+          "size": 2541
+        },
+        {
+          "path": "tests/poll-access.test.mjs",
+          "size": 2512
         },
         {
           "path": "tests/poll-template.test.mjs",
@@ -2141,6 +2149,10 @@
         {
           "path": "tests/server.test.mjs",
           "size": 18048
+        },
+        {
+          "path": "tests/session-crash.test.mjs",
+          "size": 5942
         },
         {
           "path": "tests/session-ownership.test.mjs",
@@ -2156,6 +2168,10 @@
         }
       ],
       "commits": [
+        {
+          "sha": "d7062b78007ec958f3efce30fd11d01621518095",
+          "date": "2026-11-14T22:29:43Z"
+        },
         {
           "sha": "1f68cc18aea5258a9a27d4ca74b7498a0ade84d9",
           "date": "2026-11-13T23:32:03Z"
@@ -3935,9 +3951,9 @@
       ]
     },
     "den9911": {
-      "head": "b8a84d035a681f231af6e96e7aaa37ddfd2382e4",
+      "head": "eb6f54c000939b65ed0c5dbf24260395161db8c0",
       "branch": "main",
-      "total_commits": 35,
+      "total_commits": 36,
       "files": [
         {
           "path": ".github/workflows/profile-visuals.yml",
@@ -3973,19 +3989,19 @@
         },
         {
           "path": "assets/profile/activity-en-dark.svg",
-          "size": 7387
+          "size": 7416
         },
         {
           "path": "assets/profile/activity-en-light.svg",
-          "size": 7387
+          "size": 7416
         },
         {
           "path": "assets/profile/activity-ru-dark.svg",
-          "size": 7557
+          "size": 7586
         },
         {
           "path": "assets/profile/activity-ru-light.svg",
-          "size": 7557
+          "size": 7586
         },
         {
           "path": "assets/profile/intro-en-dark.svg",
@@ -4081,7 +4097,7 @@
         },
         {
           "path": "docs/activity.json",
-          "size": 25200
+          "size": 25323
         },
         {
           "path": "docs/assets/DEVICON-LICENSE",
@@ -4397,7 +4413,7 @@
         },
         {
           "path": "profile/data.json",
-          "size": 109284
+          "size": 109407
         },
         {
           "path": "profile/refresh.py",
@@ -4417,6 +4433,10 @@
         }
       ],
       "commits": [
+        {
+          "sha": "eb6f54c000939b65ed0c5dbf24260395161db8c0",
+          "date": "2026-11-14T18:19:22Z"
+        },
         {
           "sha": "b8a84d035a681f231af6e96e7aaa37ddfd2382e4",
           "date": "2026-11-14T06:45:22Z"
