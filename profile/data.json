@@ -1,7 +1,7 @@
 {
   "schema": 2,
   "as_of": "2026-11-20",
-  "updated_at": "2026-11-20T07:29:55+00:00",
+  "updated_at": "2026-11-20T20:33:01+00:00",
   "window_days": 90,
   "repositories": {
     "caption-club": {
@@ -1854,9 +1854,9 @@
       ]
     },
     "crowd-decides": {
-      "head": "8678278c0c7205122b258a95e083e355412de5a1",
+      "head": "5aced229e09f1621933bb7dc5d53d1f25c24eb11",
       "branch": "main",
-      "total_commits": 12,
+      "total_commits": 13,
       "files": [
         {
           "path": ".dockerignore",
@@ -1868,7 +1868,7 @@
         },
         {
           "path": ".github/workflows/verify.yml",
-          "size": 1265
+          "size": 1337
         },
         {
           "path": ".gitignore",
@@ -1884,15 +1884,15 @@
         },
         {
           "path": "OPERATIONS.md",
-          "size": 18821
+          "size": 22424
         },
         {
           "path": "README.md",
-          "size": 6312
+          "size": 6566
         },
         {
           "path": "README.ru.md",
-          "size": 8497
+          "size": 8912
         },
         {
           "path": "assets/icon.svg",
@@ -1904,7 +1904,7 @@
         },
         {
           "path": "i18n/catalog.tsv",
-          "size": 44573
+          "size": 45717
         },
         {
           "path": "index.html",
@@ -1956,7 +1956,7 @@
         },
         {
           "path": "public/decide/app.js",
-          "size": 11207
+          "size": 12355
         },
         {
           "path": "public/decide/index.html",
@@ -1972,7 +1972,7 @@
         },
         {
           "path": "public/locales/en/decide/app.js",
-          "size": 8944
+          "size": 9777
         },
         {
           "path": "public/locales/en/pages/about/index.html",
@@ -2008,7 +2008,7 @@
         },
         {
           "path": "public/locales/en/shared/ui.js",
-          "size": 8486
+          "size": 8521
         },
         {
           "path": "public/locales/ru/admin/app.js",
@@ -2016,7 +2016,7 @@
         },
         {
           "path": "public/locales/ru/decide/app.js",
-          "size": 11218
+          "size": 12366
         },
         {
           "path": "public/locales/ru/pages/about/index.html",
@@ -2052,7 +2052,7 @@
         },
         {
           "path": "public/locales/ru/shared/ui.js",
-          "size": 9426
+          "size": 9461
         },
         {
           "path": "public/shared/boot.js",
@@ -2100,7 +2100,7 @@
         },
         {
           "path": "public/shared/ui.js",
-          "size": 9426
+          "size": 9461
         },
         {
           "path": "server/content.mjs",
@@ -2108,7 +2108,7 @@
         },
         {
           "path": "server/index.mjs",
-          "size": 27461
+          "size": 28106
         },
         {
           "path": "server/project.mjs",
@@ -2132,11 +2132,11 @@
         },
         {
           "path": "tests/helpers/poll-process.mjs",
-          "size": 1111
+          "size": 1436
         },
         {
           "path": "tests/helpers/session-process.mjs",
-          "size": 2541
+          "size": 2577
         },
         {
           "path": "tests/poll-access.test.mjs",
@@ -2159,8 +2159,16 @@
           "size": 4867
         },
         {
+          "path": "tests/poll-template-boundary.test.mjs",
+          "size": 3522
+        },
+        {
           "path": "tests/poll-template.test.mjs",
           "size": 1809
+        },
+        {
+          "path": "tests/poll-vote-recovery.test.mjs",
+          "size": 5622
         },
         {
           "path": "tests/preferences.test.mjs",
@@ -2188,6 +2196,10 @@
         }
       ],
       "commits": [
+        {
+          "sha": "5aced229e09f1621933bb7dc5d53d1f25c24eb11",
+          "date": "2026-11-20T13:11:44Z"
+        },
         {
           "sha": "8678278c0c7205122b258a95e083e355412de5a1",
           "date": "2026-11-19T19:13:35Z"
@@ -3979,9 +3991,9 @@
       ]
     },
     "den9911": {
-      "head": "292e454c3874f8ba16a4e850db5d25758bce36f7",
+      "head": "05fc73bfddd62cd55a1b08daecd0929403df55e8",
       "branch": "main",
-      "total_commits": 47,
+      "total_commits": 48,
       "files": [
         {
           "path": ".github/workflows/profile-visuals.yml",
@@ -4017,19 +4029,19 @@
         },
         {
           "path": "assets/profile/activity-en-dark.svg",
-          "size": 7560
+          "size": 7562
         },
         {
           "path": "assets/profile/activity-en-light.svg",
-          "size": 7560
+          "size": 7562
         },
         {
           "path": "assets/profile/activity-ru-dark.svg",
-          "size": 7730
+          "size": 7732
         },
         {
           "path": "assets/profile/activity-ru-light.svg",
-          "size": 7730
+          "size": 7732
         },
         {
           "path": "assets/profile/intro-en-dark.svg",
@@ -4125,7 +4137,7 @@
         },
         {
           "path": "docs/activity.json",
-          "size": 27046
+          "size": 27169
         },
         {
           "path": "docs/assets/DEVICON-LICENSE",
@@ -4441,7 +4453,7 @@
         },
         {
           "path": "profile/data.json",
-          "size": 111907
+          "size": 112030
         },
         {
           "path": "profile/refresh.py",
@@ -4461,6 +4473,10 @@
         }
       ],
       "commits": [
+        {
+          "sha": "05fc73bfddd62cd55a1b08daecd0929403df55e8",
+          "date": "2026-11-20T07:30:31Z"
+        },
         {
           "sha": "292e454c3874f8ba16a4e850db5d25758bce36f7",
           "date": "2026-11-19T20:49:45Z"
