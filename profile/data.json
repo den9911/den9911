@@ -1,7 +1,7 @@
 {
   "schema": 2,
   "as_of": "2026-11-22",
-  "updated_at": "2026-11-22T07:07:21+00:00",
+  "updated_at": "2026-11-22T19:51:04+00:00",
   "window_days": 90,
   "repositories": {
     "caption-club": {
@@ -1854,9 +1854,9 @@
       ]
     },
     "crowd-decides": {
-      "head": "d95a52e09dbeebed779fd74f5ac37d5617776fa5",
+      "head": "f164bc6bfd5088b81585fa14189929dc1c808cee",
       "branch": "main",
-      "total_commits": 15,
+      "total_commits": 16,
       "files": [
         {
           "path": ".dockerignore",
@@ -1868,7 +1868,7 @@
         },
         {
           "path": ".github/workflows/verify.yml",
-          "size": 1404
+          "size": 1462
         },
         {
           "path": ".gitignore",
@@ -1884,15 +1884,15 @@
         },
         {
           "path": "OPERATIONS.md",
-          "size": 28593
+          "size": 30997
         },
         {
           "path": "README.md",
-          "size": 6831
+          "size": 6893
         },
         {
           "path": "README.ru.md",
-          "size": 9343
+          "size": 9423
         },
         {
           "path": "assets/icon.svg",
@@ -1904,7 +1904,7 @@
         },
         {
           "path": "i18n/catalog.tsv",
-          "size": 46040
+          "size": 47373
         },
         {
           "path": "index.html",
@@ -1956,11 +1956,15 @@
         },
         {
           "path": "public/decide/app.js",
-          "size": 12355
+          "size": 15007
         },
         {
           "path": "public/decide/index.html",
           "size": 1706
+        },
+        {
+          "path": "public/decide/intent.js",
+          "size": 1724
         },
         {
           "path": "public/index.html",
@@ -1972,7 +1976,11 @@
         },
         {
           "path": "public/locales/en/decide/app.js",
-          "size": 9777
+          "size": 12199
+        },
+        {
+          "path": "public/locales/en/decide/intent.js",
+          "size": 1724
         },
         {
           "path": "public/locales/en/pages/about/index.html",
@@ -1992,7 +2000,7 @@
         },
         {
           "path": "public/locales/en/shared/editorial.js",
-          "size": 13031
+          "size": 13295
         },
         {
           "path": "public/locales/en/shared/main.js",
@@ -2016,7 +2024,11 @@
         },
         {
           "path": "public/locales/ru/decide/app.js",
-          "size": 12366
+          "size": 15018
+        },
+        {
+          "path": "public/locales/ru/decide/intent.js",
+          "size": 1724
         },
         {
           "path": "public/locales/ru/pages/about/index.html",
@@ -2036,7 +2048,7 @@
         },
         {
           "path": "public/locales/ru/shared/editorial.js",
-          "size": 15492
+          "size": 15791
         },
         {
           "path": "public/locales/ru/shared/main.js",
@@ -2060,7 +2072,7 @@
         },
         {
           "path": "public/shared/editorial.js",
-          "size": 15492
+          "size": 15791
         },
         {
           "path": "public/shared/favicon.svg",
@@ -2108,11 +2120,11 @@
         },
         {
           "path": "server/index.mjs",
-          "size": 29083
+          "size": 29641
         },
         {
           "path": "server/poll-deadline.mjs",
-          "size": 1137
+          "size": 1251
         },
         {
           "path": "server/project.mjs",
@@ -2128,7 +2140,7 @@
         },
         {
           "path": "server/store.mjs",
-          "size": 3655
+          "size": 3840
         },
         {
           "path": "server/validation.mjs",
@@ -2152,15 +2164,19 @@
         },
         {
           "path": "tests/poll-create-recovery.test.mjs",
-          "size": 4547
+          "size": 4754
         },
         {
           "path": "tests/poll-deadline.test.mjs",
-          "size": 7793
+          "size": 7820
         },
         {
           "path": "tests/poll-idempotency.test.mjs",
-          "size": 5274
+          "size": 5301
+        },
+        {
+          "path": "tests/poll-intent.test.mjs",
+          "size": 1303
         },
         {
           "path": "tests/poll-interruption.test.mjs",
@@ -2177,6 +2193,10 @@
         {
           "path": "tests/poll-template.test.mjs",
           "size": 1809
+        },
+        {
+          "path": "tests/poll-visibility.test.mjs",
+          "size": 5646
         },
         {
           "path": "tests/poll-vote-recovery.test.mjs",
@@ -2208,6 +2228,10 @@
         }
       ],
       "commits": [
+        {
+          "sha": "f164bc6bfd5088b81585fa14189929dc1c808cee",
+          "date": "2026-11-22T09:29:45Z"
+        },
         {
           "sha": "d95a52e09dbeebed779fd74f5ac37d5617776fa5",
           "date": "2026-11-21T10:35:14Z"
@@ -4011,9 +4035,9 @@
       ]
     },
     "den9911": {
-      "head": "2e0a8cba56ae2312ac77d68d326c37e88122de86",
+      "head": "1cd07dc500ef4fd7125f5099dd52e1aea9b080bd",
       "branch": "main",
-      "total_commits": 51,
+      "total_commits": 52,
       "files": [
         {
           "path": ".github/workflows/profile-visuals.yml",
@@ -4157,7 +4181,7 @@
         },
         {
           "path": "docs/activity.json",
-          "size": 27907
+          "size": 28030
         },
         {
           "path": "docs/assets/DEVICON-LICENSE",
@@ -4473,7 +4497,7 @@
         },
         {
           "path": "profile/data.json",
-          "size": 113257
+          "size": 113380
         },
         {
           "path": "profile/refresh.py",
@@ -4493,6 +4517,10 @@
         }
       ],
       "commits": [
+        {
+          "sha": "1cd07dc500ef4fd7125f5099dd52e1aea9b080bd",
+          "date": "2026-11-22T07:07:53Z"
+        },
         {
           "sha": "2e0a8cba56ae2312ac77d68d326c37e88122de86",
           "date": "2026-11-21T19:30:09Z"
