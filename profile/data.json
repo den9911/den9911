@@ -1,7 +1,7 @@
 {
   "schema": 2,
   "as_of": "2026-11-25",
-  "updated_at": "2026-11-25T08:52:23+00:00",
+  "updated_at": "2026-11-25T21:50:39+00:00",
   "window_days": 90,
   "repositories": {
     "caption-club": {
@@ -1854,9 +1854,9 @@
       ]
     },
     "crowd-decides": {
-      "head": "75951c19f5cc864edf0bc07e6f4383b359603ff0",
+      "head": "a3961bfa24773f1e53dc2a42bf616a8df65269a2",
       "branch": "main",
-      "total_commits": 34,
+      "total_commits": 35,
       "files": [
         {
           "path": ".dockerignore",
@@ -1888,15 +1888,15 @@
         },
         {
           "path": "OPERATIONS.md",
-          "size": 40116
+          "size": 42931
         },
         {
           "path": "README.md",
-          "size": 10451
+          "size": 11907
         },
         {
           "path": "README.ru.md",
-          "size": 14911
+          "size": 17339
         },
         {
           "path": "assets/icon.svg",
@@ -1908,7 +1908,7 @@
         },
         {
           "path": "i18n/catalog.tsv",
-          "size": 52178
+          "size": 54611
         },
         {
           "path": "index.html",
@@ -1960,7 +1960,7 @@
         },
         {
           "path": "public/decide/app.js",
-          "size": 25492
+          "size": 28831
         },
         {
           "path": "public/decide/draft.js",
@@ -1984,7 +1984,7 @@
         },
         {
           "path": "public/locales/en/decide/app.js",
-          "size": 21039
+          "size": 23615
         },
         {
           "path": "public/locales/en/decide/draft.js",
@@ -2036,7 +2036,7 @@
         },
         {
           "path": "public/locales/ru/decide/app.js",
-          "size": 25503
+          "size": 28842
         },
         {
           "path": "public/locales/ru/decide/draft.js",
@@ -2120,7 +2120,7 @@
         },
         {
           "path": "public/shared/style.css",
-          "size": 14904
+          "size": 15774
         },
         {
           "path": "public/shared/themes.css",
@@ -2175,6 +2175,10 @@
           "size": 2512
         },
         {
+          "path": "tests/poll-browser-draft-finish.mjs",
+          "size": 5752
+        },
+        {
           "path": "tests/poll-browser-draft.mjs",
           "size": 5605
         },
@@ -2185,6 +2189,10 @@
         {
           "path": "tests/poll-browser-multiple-recovery.mjs",
           "size": 3932
+        },
+        {
+          "path": "tests/poll-browser-published.mjs",
+          "size": 5585
         },
         {
           "path": "tests/poll-browser-smoke.mjs",
@@ -2276,6 +2284,10 @@
         }
       ],
       "commits": [
+        {
+          "sha": "a3961bfa24773f1e53dc2a42bf616a8df65269a2",
+          "date": "2026-11-25T12:30:41Z"
+        },
         {
           "sha": "75951c19f5cc864edf0bc07e6f4383b359603ff0",
           "date": "2026-11-24T23:10:55Z"
@@ -4155,9 +4167,9 @@
       ]
     },
     "den9911": {
-      "head": "92a57cf3d26b0f4c50c28c5e2b255a2261b5f07d",
+      "head": "4e9b6ecdecf56a698fc53d9f0573d09e5884350e",
       "branch": "main",
-      "total_commits": 57,
+      "total_commits": 58,
       "files": [
         {
           "path": ".github/workflows/profile-visuals.yml",
@@ -4193,19 +4205,19 @@
         },
         {
           "path": "assets/profile/activity-en-dark.svg",
-          "size": 7709
+          "size": 7712
         },
         {
           "path": "assets/profile/activity-en-light.svg",
-          "size": 7709
+          "size": 7712
         },
         {
           "path": "assets/profile/activity-ru-dark.svg",
-          "size": 7879
+          "size": 7882
         },
         {
           "path": "assets/profile/activity-ru-light.svg",
-          "size": 7879
+          "size": 7882
         },
         {
           "path": "assets/profile/intro-en-dark.svg",
@@ -4301,7 +4313,7 @@
         },
         {
           "path": "docs/activity.json",
-          "size": 30244
+          "size": 31105
         },
         {
           "path": "docs/assets/DEVICON-LICENSE",
@@ -4617,7 +4629,7 @@
         },
         {
           "path": "profile/data.json",
-          "size": 116361
+          "size": 118093
         },
         {
           "path": "profile/refresh.py",
@@ -4637,6 +4649,10 @@
         }
       ],
       "commits": [
+        {
+          "sha": "4e9b6ecdecf56a698fc53d9f0573d09e5884350e",
+          "date": "2026-11-25T08:52:48Z"
+        },
         {
           "sha": "92a57cf3d26b0f4c50c28c5e2b255a2261b5f07d",
           "date": "2026-11-24T22:37:26Z"

@@ -1,7 +1,7 @@
 {
   "schema": 2,
   "as_of": "2026-11-25",
-  "updated_at": "2026-11-25T08:52:23+00:00",
+  "updated_at": "2026-11-25T21:50:39+00:00",
   "window_days": 90,
   "repositories": {
     "caption-club": {
@@ -268,8 +268,12 @@
     },
     "crowd-decides": {
       "branch": "main",
-      "total_commits": 34,
+      "total_commits": 35,
       "commits": [
+        {
+          "sha": "a3961bfa24773f1e53dc2a42bf616a8df65269a2",
+          "date": "2026-11-25T12:30:41Z"
+        },
         {
           "sha": "75951c19f5cc864edf0bc07e6f4383b359603ff0",
           "date": "2026-11-24T23:10:55Z"
@@ -822,8 +826,12 @@
     },
     "den9911": {
       "branch": "main",
-      "total_commits": 57,
+      "total_commits": 58,
       "commits": [
+        {
+          "sha": "4e9b6ecdecf56a698fc53d9f0573d09e5884350e",
+          "date": "2026-11-25T08:52:48Z"
+        },
         {
           "sha": "92a57cf3d26b0f4c50c28c5e2b255a2261b5f07d",
           "date": "2026-11-24T22:37:26Z"
