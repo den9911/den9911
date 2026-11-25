@@ -1,7 +1,7 @@
 {
   "schema": 2,
-  "as_of": "2026-11-24",
-  "updated_at": "2026-11-24T22:36:58+00:00",
+  "as_of": "2026-11-25",
+  "updated_at": "2026-11-25T08:52:23+00:00",
   "window_days": 90,
   "repositories": {
     "caption-club": {
@@ -268,8 +268,32 @@
     },
     "crowd-decides": {
       "branch": "main",
-      "total_commits": 28,
+      "total_commits": 34,
       "commits": [
+        {
+          "sha": "75951c19f5cc864edf0bc07e6f4383b359603ff0",
+          "date": "2026-11-24T23:10:55Z"
+        },
+        {
+          "sha": "aa69197edf2c44e097690c947ef477c06d93b6e1",
+          "date": "2026-11-24T23:10:24Z"
+        },
+        {
+          "sha": "2d3adb167b934c014cd76383c9eea2cacaea1c3b",
+          "date": "2026-11-24T22:39:52Z"
+        },
+        {
+          "sha": "dc0fed6940419531c75893f8462bb27c4b5877b0",
+          "date": "2026-11-24T22:39:49Z"
+        },
+        {
+          "sha": "5c7bdbd0bc8670eaacd89187e9707fb2b64c44f2",
+          "date": "2026-11-24T22:39:31Z"
+        },
+        {
+          "sha": "6ff209e517925b997692cd88b73c172a5a80e852",
+          "date": "2026-11-24T22:38:49Z"
+        },
         {
           "sha": "d28484def29914c9de73cd6aaa9da8b5ffff9d87",
           "date": "2026-11-23T08:51:49Z"
@@ -798,8 +822,12 @@
     },
     "den9911": {
       "branch": "main",
-      "total_commits": 56,
+      "total_commits": 57,
       "commits": [
+        {
+          "sha": "92a57cf3d26b0f4c50c28c5e2b255a2261b5f07d",
+          "date": "2026-11-24T22:37:26Z"
+        },
         {
           "sha": "d512156864470181f86a69d3ec5aa4133bf7c977",
           "date": "2026-11-24T10:07:07Z"
